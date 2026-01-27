@@ -613,6 +613,34 @@
     [
       "d311851a-8b0b-4acf-b2e7-1b968b2adbe7",
       "Root"
+    ],
+    [
+      "2e1dc814-2c57-413c-a832-0cf6350c5f62",
+      "MM-MCU"
+    ],
+    [
+      "084a0d9c-4e38-4ee1-a3cf-a1ffe53c2804",
+      "MM-Reset-Button"
+    ],
+    [
+      "b0ddafb5-a55e-4fac-9b6d-00a4e7161424",
+      "MM-IR-Emitter"
+    ],
+    [
+      "a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8",
+      "MM-IR-Receiver"
+    ],
+    [
+      "1d0e5a43-54ed-4736-85fc-b571bbabafee",
+      "MM-Motor-Control"
+    ],
+    [
+      "0b36aac1-160e-4635-9375-c6b7de12d273",
+      "MM-Power-Delivery"
+    ],
+    [
+      "7e232de8-a719-408b-a25a-fa0b7a2171cb",
+      "MM-Power-Indicator"
     ]
   ],
   "text_variables": {}
