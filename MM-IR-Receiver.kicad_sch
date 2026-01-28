@@ -601,28 +601,6 @@
 		)
 		(uuid "de92640e-feff-4dfa-9704-d68fe6bf86ff")
 	)
-	(global_label "PA6"
-		(shape input)
-		(at 115.57 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a8db002-297d-46e8-af17-758ab0c032b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1233 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 113.03 127 270)
@@ -666,6 +644,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "PA6"
+		(shape input)
+		(at 115.57 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4848d42e-69a1-44f8-b407-7c8e8125e03d")
 	)
 	(symbol
 		(lib_id "Phototransistor_ALS-PT19-315C_L177_TR8:ALS-PT19-315C_L177_TR8")

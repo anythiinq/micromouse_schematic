@@ -759,6 +759,333 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Slide_Switch_EG1218:EG1218"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EG1218"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EG1218:SW_EG1218"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "EG1903-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "EG1218"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EG1218_0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -5.08)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy -1.27 1.905) (xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 -0.635) (xy 0 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.905) (xy -1.27 -3.175) (xy 0 -2.54) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.175) (xy 1.27 3.175) (xy 1.27 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635)
+						(xy 0.635 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VoltageRegulator_AZ1117IH-3.3TRG1:AZ1117IH-3.3TRG1"
 			(pin_names
 				(offset 1.016)
@@ -1267,10 +1594,16 @@
 		)
 	)
 	(junction
+		(at 74.93 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229946b8-74db-4ad5-ba71-32bfe2dfbe1f")
+	)
+	(junction
 		(at 129.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2238c4f7-de2e-4f0b-a035-b8e6cf45e9db")
+		(uuid "4991264d-1804-446c-b30b-36eb5595e934")
 	)
 	(junction
 		(at 172.72 91.44)
@@ -1290,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 81.28 86.36)
+			(xy 78.74 100.33) (xy 74.93 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1300,13 +1633,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 129.54 93.98)
+			(xy 124.46 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0318626d-8ce0-4e59-bf63-823ee5acec66")
+		(uuid "10d69f14-5408-4c69-bdec-64da5acc025f")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16de7fd2-a026-467a-bd5c-73731d767e37")
 	)
 	(wire
 		(pts
@@ -1320,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 100.33) (xy 81.28 104.14)
+			(xy 74.93 114.3) (xy 74.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1350,13 +1693,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 97.79) (xy 85.09 97.79)
+			(xy 74.93 111.76) (xy 78.74 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6757ec80-4c59-4d62-9109-f0369b9af455")
+	)
+	(wire
+		(pts
+			(xy 74.93 92.71) (xy 74.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e06ce2b-f9bc-4c40-9811-816faf69ddd0")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7252887c-55ef-47a9-89b5-6f75ac6ab38d")
 	)
 	(wire
 		(pts
@@ -1370,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 86.36) (xy 81.28 97.79)
+			(xy 74.93 100.33) (xy 74.93 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 100.33) (xy 81.28 100.33)
+			(xy 78.74 114.3) (xy 74.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1410,23 +1773,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 81.28 83.82)
+			(xy 124.46 91.44) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97bf2a00-fd1e-4c09-87d5-bf2db97c51d1")
-	)
-	(wire
-		(pts
-			(xy 81.28 83.82) (xy 85.09 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3dc45ab-920d-4679-af07-615369c4b813")
+		(uuid "a1c9b78b-8b46-48ec-8b2d-cb15da54409b")
 	)
 	(wire
 		(pts
@@ -1450,6 +1803,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 88.9) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bd84e5-4c3d-49d6-a231-b01753277353")
+	)
+	(wire
+		(pts
+			(xy 71.12 92.71) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69dce59-bb2b-4eff-aaf5-de1f48090e01")
+	)
+	(wire
+		(pts
 			(xy 129.54 74.93) (xy 129.54 80.01)
 		)
 		(stroke
@@ -1467,6 +1840,16 @@
 			(type default)
 		)
 		(uuid "ce8b7817-3b75-432b-81c9-5880d699b00a")
+	)
+	(wire
+		(pts
+			(xy 74.93 97.79) (xy 78.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9191c69-a104-4c7f-bbed-db12b165bdce")
 	)
 	(global_label "3V3"
 		(shape input)
@@ -1492,7 +1875,7 @@
 	)
 	(symbol
 		(lib_id "JSTConnector_B2B-PH-K-S:B2B-PH-K-S")
-		(at 95.25 100.33 0)
+		(at 88.9 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1501,7 +1884,7 @@
 		(fields_autoplaced yes)
 		(uuid "06f2221e-11ef-45df-b897-ca7887a82884")
 		(property "Reference" "J8"
-			(at 102.87 97.7899 0)
+			(at 96.52 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1893,7 @@
 			)
 		)
 		(property "Value" "JST Connector"
-			(at 102.87 100.3299 0)
+			(at 96.52 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1902,7 @@
 			)
 		)
 		(property "Footprint" "B2B_PH_K_S:JST_B2B-PH-K-S"
-			(at 95.25 100.33 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 100.33 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 100.33 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1930,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 95.25 100.33 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,71 +2190,6 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 129.54 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25ce8703-106d-4520-99dd-1c1c89db870f")
-		(property "Reference" "#PWR015"
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 129.54 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5586f457-2c12-4b92-b054-d91a3265e5cd")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2159,17 +2477,210 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 81.28 78.74 0)
+		(lib_id "Slide_Switch_EG1218:EG1218")
+		(at 121.92 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "5e2ec6fb-05b6-4887-a282-189d1116ee4b")
+		(property "Reference" "S1"
+			(at 128.27 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 128.27 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EG1218:SW_EG1218"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "EG1903-ND"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd875705-81ec-41aa-8caf-47e04d1f538f")
+		)
+		(pin "1"
+			(uuid "3154ed14-9676-4a0f-8ccb-95a925c07d85")
+		)
+		(pin "2"
+			(uuid "0e3c9223-7fa0-4724-b746-8eb25f3c0701")
+		)
+		(instances
+			(project ""
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 71.12 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "6a24161f-4309-45ce-83cc-0ee77fb0f1bd")
 		(property "Reference" "#PWR012"
-			(at 81.28 82.55 0)
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2689,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 81.28 73.66 0)
+			(at 66.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 78.74 0)
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 78.74 0)
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 81.28 78.74 0)
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2737,7 @@
 	)
 	(symbol
 		(lib_id "JSTConnector_B2B-PH-K-S:B2B-PH-K-S")
-		(at 95.25 86.36 0)
+		(at 88.9 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2235,7 +2746,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ec310f0-4773-4d3d-9651-30dec0fd209b")
 		(property "Reference" "J7"
-			(at 102.87 83.8199 0)
+			(at 96.52 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2755,7 @@
 			)
 		)
 		(property "Value" "JST Connector"
-			(at 102.87 86.3599 0)
+			(at 96.52 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2764,7 @@
 			)
 		)
 		(property "Footprint" "B2B_PH_K_S:JST_B2B-PH-K-S"
-			(at 95.25 86.36 0)
+			(at 88.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 86.36 0)
+			(at 88.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 86.36 0)
+			(at 88.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2792,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 95.25 86.36 0)
+			(at 88.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +3191,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 104.14 0)
+		(at 74.93 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2689,7 +3200,7 @@
 		(fields_autoplaced yes)
 		(uuid "efa07ef6-4803-4dcd-b765-178d2c3d8e01")
 		(property "Reference" "#PWR013"
-			(at 81.28 110.49 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +3209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 109.22 0)
+			(at 74.93 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 104.14 0)
+			(at 74.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +3226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 104.14 0)
+			(at 74.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +3235,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 104.14 0)
+			(at 74.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

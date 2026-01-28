@@ -535,27 +535,16 @@
 			)
 		)
 	)
-	(global_label "NRST"
+	(hierarchical_label " NRST"
 		(shape input)
 		(at 82.55 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e31be428-d6e5-492e-b6f8-2b48de6100c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7872 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "9ab53c3b-3df6-416c-a138-c9748035b07e")
 	)
 	(symbol
 		(lib_id "10uF_Capacitor_GRM188R61C106MAALD:GRM188R61C106MAALD")

@@ -4527,28 +4527,6 @@
 			)
 		)
 	)
-	(global_label "NRST"
-		(shape input)
-		(at 90.17 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "afe6e27e-e150-464e-ab2b-de9c9f5b3890")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4072 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 99.06 48.26 180)
@@ -4703,6 +4681,83 @@
 			)
 		)
 	)
+	(hierarchical_label "INPUT_2"
+		(shape input)
+		(at 127 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f127771-2bff-46ee-8b16-1e8cb2eed9fd")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 90.17 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45ddfeea-806d-4842-9504-d46163908d83")
+	)
+	(hierarchical_label "PA6"
+		(shape input)
+		(at 127 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e3207a3-ce1a-47d7-ba00-fa2b9ac14cf5")
+	)
+	(hierarchical_label "INPUT_1"
+		(shape input)
+		(at 127 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ef273ad-13ec-4d85-982c-9dd93e8f9f14")
+	)
+	(hierarchical_label "INPUT_3"
+		(shape input)
+		(at 127 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c06a4ee-c221-4636-b530-c74a8f21cffb")
+	)
+	(hierarchical_label "PA7"
+		(shape input)
+		(at 127 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2248ec2-95fe-44e8-85d9-afef532c7d79")
+	)
+	(hierarchical_label "INPUT_4"
+		(shape input)
+		(at 127 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf0ab6ab-4d5b-4594-9396-6df8c294fa1e")
+	)
 	(symbol
 		(lib_id "0.1µFCapacitor_2025-12-15_19-47-12:0402B104K160CT")
 		(at 95.25 80.01 0)
@@ -4798,7 +4853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTL-4231N_LTO"
+		(property "Footprint" ""
 			(at 76.2 130.81 0)
 			(effects
 				(font
@@ -5522,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_LTL-4231N_LTO"
+		(property "Footprint" ""
 			(at 78.74 120.65 0)
 			(effects
 				(font

@@ -1893,27 +1893,16 @@
 			)
 		)
 	)
-	(global_label "PA7"
+	(hierarchical_label "PA7"
 		(shape input)
 		(at 82.55 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a6835cc1-b38c-4fc7-9027-84b51365bca1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.9967 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "6745372f-1753-4516-86c6-51c45bb2cf53")
 	)
 	(symbol
 		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
