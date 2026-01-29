@@ -4784,7 +4784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0.1µFCapacitor_footprints:CAP_0402_N_WAL-L"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 95.25 80.01 0)
 			(effects
 				(font
@@ -5299,7 +5299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0.1µFCapacitor_footprints:CAP_0402_N_WAL-L"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -5438,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0.1µFCapacitor_footprints:CAP_0402_N_WAL-L"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -5886,7 +5886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0.1µFCapacitor_footprints:CAP_0402_N_WAL-L"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -6693,7 +6693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0.1µFCapacitor_footprints:CAP_0402_N_WAL-L"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -6763,7 +6763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0.1µFCapacitor_footprints:CAP_0402_N_WAL-L"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 105.41 27.94 0)
 			(effects
 				(font

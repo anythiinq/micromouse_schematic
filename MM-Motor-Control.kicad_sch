@@ -2852,7 +2852,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0.1µFCapacitor_footprints:CAP_0402_N_WAL-L"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 166.37 78.74 0)
 			(effects
 				(font
