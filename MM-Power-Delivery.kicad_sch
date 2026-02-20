@@ -803,12 +803,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Slide Switch SPDT Through Hole"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -823,16 +824,6 @@
 				)
 			)
 			(property "MF" "E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
 				(at 0 0 0)
 				(effects
 					(font
