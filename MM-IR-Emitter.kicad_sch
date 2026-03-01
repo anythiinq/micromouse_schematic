@@ -1441,7 +1441,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MOSFET_2026-01-14_23-16-18:2N7002-7-F"
+		(symbol "MOSFET_ul_2N7002-7-F:2N7002-7-F"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2871,152 +2871,6 @@
 		(uuid "fd4d013e-5917-480a-8df4-3c70828a33d3")
 	)
 	(symbol
-		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
-		(at 275.59 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "045eee01-47aa-4b90-9028-409bf66d703a")
-		(property "Reference" "U1"
-			(at 298.45 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 298.45 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MOSFET_footprints:SOT-23_1_DIO"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "2N7002-7-F"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2528a19c-a073-43a4-83ea-d29ea459b7ba")
-		)
-		(pin "3"
-			(uuid "ece49bed-46f4-4eb0-8516-bf75e64a1b53")
-		)
-		(pin "2"
-			(uuid "bf94e78d-86b8-443b-9838-f0e2ee1a300c")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
-		(at 106.68 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c3c9a03-9c97-4e2e-b85e-1abcdc7d8376")
-		(property "Reference" "U6"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 129.54 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MOSFET_footprints:SOT-23_1_DIO"
-			(at 106.68 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "2N7002-7-F"
-			(at 106.68 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dbcc79a-e91f-4892-8771-de59fefbe81c")
-		)
-		(pin "3"
-			(uuid "75f7c19e-5be8-427c-81a1-0c99441764ce")
-		)
-		(pin "2"
-			(uuid "e1d15961-8387-42fb-b04f-bf2a921d9f41")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0.1µFCapacitor_CL05A104KA5NNNC:CL05A104KA5NNNC")
 		(at 167.64 91.44 90)
 		(unit 1)
@@ -3252,6 +3106,79 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MOSFET_ul_2N7002-7-F:2N7002-7-F")
+		(at 106.68 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1410fbbc-dc9c-49bc-b3bb-1adfcab9ff6c")
+		(property "Reference" "U2"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 129.54 205.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N7002-7-F"
+			(at 106.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed62b75e-1c2e-4901-b36e-2eca66c86549")
+		)
+		(pin "1"
+			(uuid "f1233bf0-eaa4-40e0-9d7b-27b4bf322bdf")
+		)
+		(pin "3"
+			(uuid "a69b5845-2ad7-479b-a5d4-b265aa5bdfd9")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3525,7 +3452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR_0747KL:RESC1608X55"
+		(property "Footprint" "47_kohm_RC0603FR-0747KL:RESC1608X55"
 			(at 273.05 224.79 0)
 			(effects
 				(font
@@ -3605,7 +3532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0805FR_0751RL:RESC2012X60N"
+		(property "Footprint" "51_ohm_RC0805FR-0751RL:RESC2012X60N"
 			(at 321.31 173.99 0)
 			(effects
 				(font
@@ -3675,7 +3602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APT1608F3C:LED_APT1608F3C"
+		(property "Footprint" "IR_Emitter_APT1608F3C:LED_APT1608F3C"
 			(at 321.31 88.9 0)
 			(effects
 				(font
@@ -4025,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APT1608F3C:LED_APT1608F3C"
+		(property "Footprint" "IR_Emitter_APT1608F3C:LED_APT1608F3C"
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -4377,7 +4304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR_0747KL:RESC1608X55"
+		(property "Footprint" "47_kohm_RC0603FR-0747KL:RESC1608X55"
 			(at 104.14 224.79 0)
 			(effects
 				(font
@@ -4431,79 +4358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
-		(at 275.59 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6af7076-11c4-4257-871f-095819b4a89b")
-		(property "Reference" "U3"
-			(at 298.45 203.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 298.45 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MOSFET_footprints:SOT-23_1_DIO"
-			(at 275.59 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "2N7002-7-F"
-			(at 275.59 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0137a65f-2ac0-4cb8-b34b-38eef2afa05d")
-		)
-		(pin "3"
-			(uuid "a5a23230-080f-4786-9668-55b66758fb78")
-		)
-		(pin "2"
-			(uuid "b6c5cb11-91f0-46c4-880d-99d6c768a417")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "100OhmResistor_CRCW0603100RFKEA:CRCW0603100RFKEA")
 		(at 92.71 102.87 0)
 		(unit 1)
@@ -4529,7 +4383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW0603100RFKEA:RESC1508X50N"
+		(property "Footprint" "100_ohm_CRCW0603100RFKEA:RESC1508X50N"
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -4599,7 +4453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0805FR_0751RL:RESC2012X60N"
+		(property "Footprint" "51_ohm_RC0805FR-0751RL:RESC2012X60N"
 			(at 152.4 63.5 0)
 			(effects
 				(font
@@ -4668,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW0603100RFKEA:RESC1508X50N"
+		(property "Footprint" "100_ohm_CRCW0603100RFKEA:RESC1508X50N"
 			(at 261.62 106.68 0)
 			(effects
 				(font
@@ -4739,7 +4593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR_0747KL:RESC1608X55"
+		(property "Footprint" "47_kohm_RC0603FR-0747KL:RESC1608X55"
 			(at 104.14 114.3 0)
 			(effects
 				(font
@@ -4787,79 +4641,6 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
-		(at 106.68 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1ee5719-34c4-4852-bdee-0794514872f5")
-		(property "Reference" "U2"
-			(at 129.54 203.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MOSFET"
-			(at 129.54 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MOSFET_footprints:SOT-23_1_DIO"
-			(at 106.68 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "2N7002-7-F"
-			(at 106.68 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c11e8208-f9dd-4b96-b92f-a0ebbea6e420")
-		)
-		(pin "3"
-			(uuid "aa322d7c-2499-478c-88ab-163b7271e398")
-		)
-		(pin "2"
-			(uuid "0c2d242b-113d-487f-b792-bcbc82cc45b3")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5372,7 +5153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0805FR_0751RL:RESC2012X60N"
+		(property "Footprint" "51_ohm_RC0805FR-0751RL:RESC2012X60N"
 			(at 321.31 67.31 0)
 			(effects
 				(font
@@ -5442,7 +5223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APT1608F3C:LED_APT1608F3C"
+		(property "Footprint" "IR_Emitter_APT1608F3C:LED_APT1608F3C"
 			(at 152.4 195.58 0)
 			(effects
 				(font
@@ -5551,7 +5332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW0603100RFKEA:RESC1508X50N"
+		(property "Footprint" "100_ohm_CRCW0603100RFKEA:RESC1508X50N"
 			(at 92.71 213.36 0)
 			(effects
 				(font
@@ -5621,7 +5402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "APT1608F3C:LED_APT1608F3C"
+		(property "Footprint" "IR_Emitter_APT1608F3C:LED_APT1608F3C"
 			(at 321.31 195.58 0)
 			(effects
 				(font
@@ -5699,6 +5480,79 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MOSFET_ul_2N7002-7-F:2N7002-7-F")
+		(at 106.68 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7861a77-38ee-49b8-b5d0-768c32d1ec57")
+		(property "Reference" "U1"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N7002-7-F"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7fc536ce-2b07-47d7-b3fa-1d06df3bedaf")
+		)
+		(pin "1"
+			(uuid "b921246d-5644-4838-840e-2848dfc54aa0")
+		)
+		(pin "3"
+			(uuid "82396e3b-ee63-41df-931d-2da3e69b398c")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6213,7 +6067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0805FR_0751RL:RESC2012X60N"
+		(property "Footprint" "51_ohm_RC0805FR-0751RL:RESC2012X60N"
 			(at 152.4 173.99 0)
 			(effects
 				(font
@@ -6284,7 +6138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR_0747KL:RESC1608X55"
+		(property "Footprint" "47_kohm_RC0603FR-0747KL:RESC1608X55"
 			(at 273.05 118.11 0)
 			(effects
 				(font
@@ -6338,6 +6192,79 @@
 		)
 	)
 	(symbol
+		(lib_id "MOSFET_ul_2N7002-7-F:2N7002-7-F")
+		(at 275.59 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef603c8a-0a19-4342-926d-7f09ed605b3e")
+		(property "Reference" "U3"
+			(at 298.45 203.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 298.45 205.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N7002-7-F"
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b888c9e8-2b65-40c7-bb79-fbc9d032b9d1")
+		)
+		(pin "1"
+			(uuid "22cc0018-620d-462c-bd25-05b8d13ced15")
+		)
+		(pin "3"
+			(uuid "aeebd051-fcfd-47ac-a635-f6bee3197914")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "100OhmResistor_CRCW0603100RFKEA:CRCW0603100RFKEA")
 		(at 261.62 213.36 0)
 		(unit 1)
@@ -6363,7 +6290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CRCW0603100RFKEA:RESC1508X50N"
+		(property "Footprint" "100_ohm_CRCW0603100RFKEA:RESC1508X50N"
 			(at 261.62 213.36 0)
 			(effects
 				(font
@@ -6401,6 +6328,79 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MOSFET_ul_2N7002-7-F:2N7002-7-F")
+		(at 275.59 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f20f709d-0378-4aca-8141-bd625b43d627")
+		(property "Reference" "U4"
+			(at 298.45 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 298.45 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N7002-7-F"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc203cf8-e9af-4570-84d5-0742bd384c53")
+		)
+		(pin "2"
+			(uuid "95396bef-ba93-4c15-a415-24b9d9b322d1")
+		)
+		(pin "3"
+			(uuid "1fb5863a-8fcb-4587-a31a-d0b313401e72")
+		)
+		(instances
+			(project ""
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "U4")
 					(unit 1)
 				)
 			)

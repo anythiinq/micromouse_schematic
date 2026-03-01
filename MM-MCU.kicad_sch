@@ -1346,7 +1346,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "60.4ohmResistor_CR0603-FX-60R4ELF:CR0603-FX-60R4ELF"
+		(symbol "330_ohm_RC0603FR-07330RL:RC0603FR-07330RL"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1354,7 +1354,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at -7.6244 2.5415 0)
+				(at -3.81 1.4986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1362,8 +1362,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "CR0603-FX-60R4ELF"
-				(at -7.63 -5.0866 0)
+			(property "Value" "RC0603FR-07330RL"
+				(at -3.81 -3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1371,7 +1371,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CR0603-FX-60R4ELF:RESC1608X55N"
+			(property "Footprint" "RC0603FR-07330RL:RESC1607X60N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1399,13 +1399,83 @@
 					(hide yes)
 				)
 			)
-			(symbol "CR0603-FX-60R4ELF_0_0"
+			(property "DigiKey_Part_Number" "311-330HRCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "RC0603FR-07330RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-07330RL_0_0"
 				(polyline
 					(pts
-						(xy -5.08 0) (xy -4.445 1.905)
+						(xy -2.54 0) (xy -2.159 1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1414,10 +1484,10 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 1.905) (xy -3.175 -1.905)
+						(xy -2.159 1.016) (xy -1.524 -1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1426,10 +1496,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -1.905) (xy -1.905 1.905)
+						(xy -1.524 -1.016) (xy -0.889 1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1438,10 +1508,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 1.905) (xy -0.635 -1.905)
+						(xy -0.889 1.016) (xy -0.254 -1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1450,10 +1520,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -1.905) (xy 0.635 1.905)
+						(xy -0.254 -1.016) (xy 0.381 1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1462,10 +1532,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 1.905 -1.905)
+						(xy 0.381 1.016) (xy 1.016 -1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1474,10 +1544,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.905) (xy 3.175 1.905)
+						(xy 1.016 -1.016) (xy 1.651 1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1486,10 +1556,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 1.905) (xy 4.445 -1.905)
+						(xy 1.651 1.016) (xy 2.286 -1.016)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1498,10 +1568,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 -1.905) (xy 5.08 0)
+						(xy 2.286 -1.016) (xy 2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1509,7 +1579,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -7.62 0 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1527,7 +1597,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 0 180)
+					(at 7.62 0 180)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -4099,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 132.08) (xy 39.37 132.08)
+			(xy 38.1 132.08) (xy 41.91 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4189,6 +4259,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 132.08) (xy 59.69 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e3eb8e-1097-4939-a60f-99fcaf9eb6e7")
+	)
+	(wire
+		(pts
 			(xy 113.03 27.94) (xy 114.3 27.94)
 		)
 		(stroke
@@ -4269,6 +4349,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 121.92) (xy 59.69 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6700a6-02c7-4dfc-be45-94ea135573ea")
+	)
+	(wire
+		(pts
 			(xy 116.84 67.31) (xy 116.84 68.58)
 		)
 		(stroke
@@ -4279,7 +4369,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 121.92) (xy 39.37 121.92)
+			(xy 38.1 121.92) (xy 41.91 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5125,7 +5215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CL10B105KP8NNNC:CAPC1608X90N"
+		(property "Footprint" "1uF_CL10B105KP8NNNC:CAPC1608X90N"
 			(at 120.65 68.58 0)
 			(effects
 				(font
@@ -5406,75 +5496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "60.4ohmResistor_CR0603-FX-60R4ELF:CR0603-FX-60R4ELF")
-		(at 49.53 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a5588e3-a843-4927-bef2-051f4928a1d8")
-		(property "Reference" "R1"
-			(at 49.53 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "60.4 Ohms"
-			(at 49.53 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CR0603-FX-60R4ELF:RESC1608X55N"
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18143653-8687-4d0a-923a-848e854e2cf7")
-		)
-		(pin "2"
-			(uuid "e0aab3d4-a8c4-4273-af4c-59c572259123")
-		)
-		(instances
-			(project ""
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/2e1dc814-2c57-413c-a832-0cf6350c5f62"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0.1µFCapacitor_CL05A104KA5NNNC:CL05A104KA5NNNC")
 		(at 100.33 68.58 0)
 		(unit 1)
@@ -5739,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMCF0805FT10K0:RESC2012X65N"
+		(property "Footprint" "10_kohm_RMCF0805FT10K0:RESC2012X65N"
 			(at 138.43 135.89 0)
 			(effects
 				(font
@@ -5875,7 +5896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMCF0805FT10K0:RESC2012X65N"
+		(property "Footprint" "10_kohm_RMCF0805FT10K0:RESC2012X65N"
 			(at 72.39 92.71 0)
 			(effects
 				(font
@@ -5982,6 +6003,144 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/2e1dc814-2c57-413c-a832-0cf6350c5f62"
 					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "330_ohm_RC0603FR-07330RL:RC0603FR-07330RL")
+		(at 49.53 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "652336f8-159b-49a0-b919-8ff389f17d28")
+		(property "Reference" "R2"
+			(at 49.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330 Ohm"
+			(at 49.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "330_ohm_RC0603FR-07330RL:RESC1607X60N"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-330HRCT-ND"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=snap"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Yageo"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=eda"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-07330RL"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b3019f7-5b08-456b-87bc-415eb72b4b3c")
+		)
+		(pin "1"
+			(uuid "6588ee76-f89f-4826-9cb8-b84492e23a20")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/2e1dc814-2c57-413c-a832-0cf6350c5f62"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6221,6 +6380,145 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/2e1dc814-2c57-413c-a832-0cf6350c5f62"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "330_ohm_RC0603FR-07330RL:RC0603FR-07330RL")
+		(at 49.53 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85fae2da-e0a6-4da2-9570-58415f167412")
+		(property "Reference" "R1"
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330 Ohm"
+			(at 49.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "330_ohm_RC0603FR-07330RL:RESC1607X60N"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "311-330HRCT-ND"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=snap"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Yageo"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=eda"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-07330RL"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ee374a1-e402-4eee-8198-5fd27a24d78f")
+		)
+		(pin "1"
+			(uuid "9ce7c1b1-cf13-44a2-890c-972eed4e13da")
+		)
+		(instances
+			(project ""
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/2e1dc814-2c57-413c-a832-0cf6350c5f62"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6970,7 +7268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CL10B225KP8NNNC:CAPC1608X90N"
+		(property "Footprint" "2.2uF_CL21A226MPQNNNE:CAPC2012X140N"
 			(at 77.47 160.02 0)
 			(effects
 				(font
@@ -7210,7 +7508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CL10B225KP8NNNC:CAPC1608X90N"
+		(property "Footprint" "2.2uF_CL21A226MPQNNNE:CAPC2012X140N"
 			(at 82.55 162.56 0)
 			(effects
 				(font
@@ -7914,74 +8212,6 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/2e1dc814-2c57-413c-a832-0cf6350c5f62"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "60.4ohmResistor_CR0603-FX-60R4ELF:CR0603-FX-60R4ELF")
-		(at 49.53 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e717fef8-6d0a-4de2-bb97-9a225a3ad987")
-		(property "Reference" "R2"
-			(at 49.53 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "60.4 Ohms"
-			(at 49.53 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CR0603-FX-60R4ELF:RESC1608X55N"
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "deb38b93-8322-4394-8d1b-f096d8c281be")
-		)
-		(pin "2"
-			(uuid "3e1882a5-7c2a-4bef-9d33-aaeb750a1d7b")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/2e1dc814-2c57-413c-a832-0cf6350c5f62"
-					(reference "R2")
 					(unit 1)
 				)
 			)
