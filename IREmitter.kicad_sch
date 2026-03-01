@@ -7,43 +7,103 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 266.7 123.19) (xy 292.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b86f4c-ca7a-443b-b7a9-0e0732365726")
+	)
+	(wire
+		(pts
+			(xy 266.7 152.4) (xy 292.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262e1fb6-b920-4fd9-aaee-5ccbc47aadeb")
+	)
+	(wire
+		(pts
+			(xy 266.7 101.6) (xy 292.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a9a80f-f2af-452a-824b-fbc8275133ce")
+	)
+	(wire
+		(pts
+			(xy 266.7 105.41) (xy 292.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a36211-9727-462d-8002-cf1d3e18539e")
+	)
+	(wire
+		(pts
+			(xy 266.7 156.21) (xy 292.1 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfc2401-c1da-4270-8b51-82eaf76fc99f")
+	)
+	(wire
+		(pts
+			(xy 266.7 148.59) (xy 292.1 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab0682b-623c-4a70-a6d8-7d7271936996")
+	)
+	(wire
+		(pts
+			(xy 266.7 144.78) (xy 292.1 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79574ea1-fec5-4ac0-81aa-15b6205ab40a")
+	)
+	(wire
+		(pts
 			(xy 266.7 93.98) (xy 292.1 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "016de58c-118c-4b4b-b3c2-9ee2bee931d7")
+		(uuid "80d22b3f-e657-44e1-b2f7-a2e9f41ad60c")
 	)
 	(wire
 		(pts
-			(xy 257.81 127) (xy 257.81 146.05)
+			(xy 266.7 127) (xy 292.1 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "297bc034-81ea-4641-a851-34429df27df6")
+		(uuid "833f5f1f-e441-4427-b484-80cf3a6eea64")
 	)
 	(wire
 		(pts
-			(xy 260.35 127) (xy 260.35 146.05)
+			(xy 266.7 130.81) (xy 292.1 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "530149a5-183b-4330-bbf1-fe31db0b5e32")
-	)
-	(wire
-		(pts
-			(xy 255.27 127) (xy 255.27 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dce6371-98c1-4103-b027-2d57b8070efd")
+		(uuid "83a3b1a8-5f57-4bd6-aec1-3e1c042fa580")
 	)
 	(wire
 		(pts
@@ -57,42 +117,31 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 139.7) (xy 292.1 139.7)
+			(xy 266.7 97.79) (xy 292.1 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "977e15d2-3562-4d38-91c8-7f1d807fd9ac")
+		(uuid "9722ed13-d92c-4f17-a2a2-6fb79645c0ef")
 	)
 	(wire
 		(pts
-			(xy 252.73 127) (xy 252.73 146.05)
+			(xy 266.7 119.38) (xy 292.1 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8be9099-f729-4234-baf4-66cbb574f5e5")
-	)
-	(wire
-		(pts
-			(xy 264.16 127) (xy 264.16 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae3207ba-65b8-441d-996e-d185206bb7b2")
+		(uuid "e70d571c-2080-4eca-b083-5b68de4990fd")
 	)
 	(sheet
-		(at 177.8 88.9)
-		(size 38.1 38.1)
+		(at 203.2 90.17)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -103,7 +152,7 @@
 		)
 		(uuid "084a0d9c-4e38-4ee1-a3cf-a1ffe53c2804")
 		(property "Sheetname" "MM-Reset-Button"
-			(at 177.8 88.1376 0)
+			(at 203.2 89.4076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "MM-Reset-Button.kicad_sch"
-			(at 177.8 127.6354 0)
+			(at 194.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,8 +231,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 146.05)
-		(size 38.1 38.1)
+		(at 292.1 140.97)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -199,7 +248,7 @@
 		)
 		(uuid "1d0e5a43-54ed-4736-85fc-b571bbabafee")
 		(property "Sheetname" "MM-Motor-Control"
-			(at 228.6 145.2876 0)
+			(at 292.1 140.2076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,7 +257,7 @@
 			)
 		)
 		(property "Sheetfile" "MM-Motor-Control.kicad_sch"
-			(at 228.6 184.7854 0)
+			(at 292.1 160.6554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,43 +266,43 @@
 			)
 		)
 		(pin "INPUT_3" input
-			(at 257.81 146.05 90)
+			(at 292.1 152.4 180)
 			(uuid "d045f6f1-4894-4c30-af08-441a744b1c88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "INPUT_2" input
-			(at 255.27 146.05 90)
+			(at 292.1 148.59 180)
 			(uuid "54686d10-a855-489c-a729-cd1c5a99e457")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "INPUT_4" input
-			(at 260.35 146.05 90)
+			(at 292.1 156.21 180)
 			(uuid "2a640455-98e5-4c54-b60c-5ac60d665448")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "INPUT_1" input
-			(at 252.73 146.05 90)
+			(at 292.1 144.78 180)
 			(uuid "fedaf9b7-13d8-4ac6-af15-b8e7763eb9b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -265,8 +314,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 88.9)
-		(size 38.1 38.1)
+		(at 228.6 90.17)
+		(size 38.1 104.14)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -282,7 +331,7 @@
 		)
 		(uuid "2e1dc814-2c57-413c-a832-0cf6350c5f62")
 		(property "Sheetname" "MM-MCU"
-			(at 228.6 88.1376 0)
+			(at 228.6 89.4076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,7 +340,7 @@
 			)
 		)
 		(property "Sheetfile" "MM-MCU.kicad_sch"
-			(at 228.6 127.6354 0)
+			(at 228.6 194.9454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,9 +358,9 @@
 				(justify left)
 			)
 		)
-		(pin "PA6" input
-			(at 266.7 93.98 0)
-			(uuid "3ff30b5c-24ad-416f-8365-8fae3b110109")
+		(pin "INPUT_4" input
+			(at 266.7 156.21 0)
+			(uuid "82c7b81a-bc23-4f86-919e-18a8dd68bfd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,54 +368,114 @@
 				(justify right)
 			)
 		)
-		(pin "INPUT_4" input
-			(at 260.35 127 270)
-			(uuid "82c7b81a-bc23-4f86-919e-18a8dd68bfd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PA7" input
-			(at 264.16 127 270)
-			(uuid "c230386e-46f5-41bb-ab87-7e08a1d3ce08")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "INPUT_1" input
-			(at 252.73 127 270)
+			(at 266.7 144.78 0)
 			(uuid "4e430581-25a9-49d8-bd2e-550ab958173a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "INPUT_3" input
-			(at 257.81 127 270)
+			(at 266.7 152.4 0)
 			(uuid "14eb2d6c-7078-42b2-ad7a-86d56cf1808d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "INPUT_2" input
-			(at 255.27 127 270)
+			(at 266.7 148.59 0)
 			(uuid "8c85ce4f-e94c-4e8c-bd2b-a458854d3772")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "IR_RECEIVER_2" input
+			(at 266.7 97.79 0)
+			(uuid "6e73a3a6-bdce-4141-bf90-c59f4d993a2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_EMITTER_1" input
+			(at 266.7 119.38 0)
+			(uuid "6e0798f5-3d08-4f50-8a21-36407310c5bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_RECEIVER_1" input
+			(at 266.7 93.98 0)
+			(uuid "9c38ff07-cc6c-4e37-9faa-101eee2147a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_EMITTER_2" input
+			(at 266.7 123.19 0)
+			(uuid "914b2899-332d-44b1-8159-b213da32e748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_RECEIVER_3" input
+			(at 266.7 101.6 0)
+			(uuid "ea8dbfca-bfea-41cb-83b4-375b65c5beeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_RECEIVER_4" input
+			(at 266.7 105.41 0)
+			(uuid "3ed4f2a7-867d-4636-b168-797e7c7efb67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_EMITTER_3" input
+			(at 266.7 127 0)
+			(uuid "83ae64fc-e710-4eaa-9813-2219d3ccb6f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_EMITTER_4" input
+			(at 266.7 130.81 0)
+			(uuid "c9a5ddc9-0d3a-42a1-88da-05c629a80058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -421,8 +530,8 @@
 		)
 	)
 	(sheet
-		(at 292.1 88.9)
-		(size 38.1 38.1)
+		(at 292.1 90.17)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -438,7 +547,7 @@
 		)
 		(uuid "a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8")
 		(property "Sheetname" "MM-IR-Receiver"
-			(at 292.1 88.1376 0)
+			(at 292.1 89.4076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +556,7 @@
 			)
 		)
 		(property "Sheetfile" "MM-IR-Receiver.kicad_sch"
-			(at 292.1 127.6354 0)
+			(at 292.1 109.8554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,9 +564,39 @@
 				(justify left top)
 			)
 		)
-		(pin "PA6" input
+		(pin "IR_RECEIVER_3" input
+			(at 292.1 101.6 180)
+			(uuid "7ce460ff-a0a3-46c6-af23-696ff70f475d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_RECEIVER_1" input
 			(at 292.1 93.98 180)
-			(uuid "442357fc-43ab-43d3-aec9-4ca6780e20ed")
+			(uuid "e8bc0bb6-af86-472c-b059-38e4440dd612")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_RECEIVER_4" input
+			(at 292.1 105.41 180)
+			(uuid "88145d4a-dbde-474e-a756-699cbba18293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_RECEIVER_2" input
+			(at 292.1 97.79 180)
+			(uuid "1dadbf5b-b7b1-4c00-bef0-1f004af04483")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,8 +613,8 @@
 		)
 	)
 	(sheet
-		(at 292.1 135.89)
-		(size 38.1 38.1)
+		(at 292.1 115.57)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -491,7 +630,7 @@
 		)
 		(uuid "b0ddafb5-a55e-4fac-9b6d-00a4e7161424")
 		(property "Sheetname" "MM-IR-Emitter"
-			(at 292.1 135.1276 0)
+			(at 292.1 114.8076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +639,7 @@
 			)
 		)
 		(property "Sheetfile" "MM-IR-Emitter.kicad_sch"
-			(at 292.1 174.6254 0)
+			(at 292.1 135.2554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,9 +647,39 @@
 				(justify left top)
 			)
 		)
-		(pin "PA7" input
-			(at 292.1 139.7 180)
-			(uuid "cb1c8546-00a1-4019-b433-170b2f999134")
+		(pin "IR_EMITTER_4" input
+			(at 292.1 130.81 180)
+			(uuid "96129ea5-8d78-40e7-9187-3e7a5d712fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_EMITTER_1" input
+			(at 292.1 119.38 180)
+			(uuid "f6a7ba7e-78bb-4ba9-83d8-9051907af76a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_EMITTER_2" input
+			(at 292.1 123.19 180)
+			(uuid "7032ac0c-cf43-4747-b693-f971c1febc15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_EMITTER_3" input
+			(at 292.1 127 180)
+			(uuid "cc7e9cc5-b020-4f1b-9bc0-0d8a6e584e2e")
 			(effects
 				(font
 					(size 1.27 1.27)

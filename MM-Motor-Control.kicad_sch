@@ -2885,7 +2885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CL05A104KA5NNNC:CAPC1005X55N"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -3124,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hbridge_L293DD:SOIC127P1032X265-20N"
+		(property "Footprint" "H-Bridge_L293DD:SOIC127P1032X265-20N"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL10A475KP8NNNC:CAPC1608X90N"
+		(property "Footprint" "Ceramic_Capacitor_4.7uF_CL21A475KAQNNNE:CAPC2012X140N"
 			(at 189.23 73.66 0)
 			(effects
 				(font
@@ -3748,7 +3748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL10A475KP8NNNC:CAPC1608X90N"
+		(property "Footprint" "Ceramic_Capacitor_4.7uF_CL21A475KAQNNNE:CAPC2012X140N"
 			(at 189.23 63.5 0)
 			(effects
 				(font
@@ -4056,7 +4056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CL21B106KOQNNNE:CAPC2012X140N"
+		(property "Footprint" "Ceramic_Capacitor_10uF_GRM21BC81C106KA73L:CAPC2012X140N"
 			(at 166.37 66.04 0)
 			(effects
 				(font

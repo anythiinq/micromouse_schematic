@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "19f669e8-7934-43cc-afa0-b096b7634b3e")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "0.1µFCapacitor_CL05A104KA5NNNC:CL05A104KA5NNNC"
 			(pin_names
@@ -1627,10 +1627,94 @@
 		)
 	)
 	(junction
+		(at 161.29 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ca6e42-3029-48ed-9c57-5b680fbd38b6")
+	)
+	(junction
+		(at 152.4 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b620a3-7e13-4ba6-806c-06b86e8ccc7e")
+	)
+	(junction
+		(at 152.4 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc960ff-1694-4a27-b27f-9da697f0c1dc")
+	)
+	(junction
+		(at 330.2 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3897a708-66e3-4d44-a883-0aa5b3a1b2e2")
+	)
+	(junction
+		(at 321.31 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4df7357d-3dea-47b7-b053-8455237f3388")
+	)
+	(junction
+		(at 321.31 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51cd2589-2031-4d61-bae8-11bc2f2c1cad")
+	)
+	(junction
+		(at 152.4 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f39027-0892-4f44-90c1-087dd02e91d4")
+	)
+	(junction
+		(at 321.31 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e106bb8-64cd-429e-93a2-2e6575b42376")
+	)
+	(junction
+		(at 321.31 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68e99315-8759-4ae0-87e9-8f6212bfa254")
+	)
+	(junction
+		(at 330.2 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692c6cbd-579a-4994-8364-ff80fde78ad3")
+	)
+	(junction
+		(at 330.2 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d11cd3a-b14b-43ad-a4bc-62de83f6aec7")
+	)
+	(junction
+		(at 273.05 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94152c20-c505-4470-8901-f143e35c8cb4")
+	)
+	(junction
 		(at 161.29 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b699074-90bf-4c52-adf6-4f448fa73d75")
+	)
+	(junction
+		(at 104.14 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e9f6430-4bf3-40fc-8350-d1aa299d5097")
+	)
+	(junction
+		(at 321.31 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b12aed75-00ec-43d6-8c92-08b00b4f49df")
 	)
 	(junction
 		(at 152.4 116.84)
@@ -1645,10 +1729,34 @@
 		(uuid "c508c9f7-411a-4d79-8b9d-2008ea858fee")
 	)
 	(junction
+		(at 330.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd39421a-5355-4a59-9ab2-2e1ce311d934")
+	)
+	(junction
 		(at 161.29 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4e27bcc-05f6-49ae-a76d-1f9d09f2aca1")
+	)
+	(junction
+		(at 321.31 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebbf55eb-ea9b-495e-b04e-924549df5ee5")
+	)
+	(junction
+		(at 273.05 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec555bc8-ba2d-4245-9091-b0da8104eebc")
+	)
+	(junction
+		(at 161.29 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed1c3df3-b14d-4ee5-9421-f3b5265bdd65")
 	)
 	(junction
 		(at 104.14 102.87)
@@ -1664,6 +1772,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 200.66) (xy 152.4 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b21662-20c7-493d-bbbf-78f56899d20a")
+	)
+	(wire
+		(pts
 			(xy 161.29 82.55) (xy 167.64 82.55)
 		)
 		(stroke
@@ -1671,6 +1789,56 @@
 			(type default)
 		)
 		(uuid "03d1ecbc-addd-4c41-b7f2-0af2a99abb59")
+	)
+	(wire
+		(pts
+			(xy 327.66 193.04) (xy 330.2 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056c0d62-b413-4258-91f1-61036187132c")
+	)
+	(wire
+		(pts
+			(xy 152.4 184.15) (xy 152.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0f26ec-751b-4119-81ac-35585157f254")
+	)
+	(wire
+		(pts
+			(xy 336.55 209.55) (xy 336.55 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9c7ba0-fe6f-4c96-9812-0923a3fe70ef")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 161.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1096fa94-1c27-408b-9db9-82f2e0c12f45")
+	)
+	(wire
+		(pts
+			(xy 330.2 227.33) (xy 321.31 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181e7b04-07ab-4bdb-8c4d-553e35273842")
 	)
 	(wire
 		(pts
@@ -1704,6 +1872,26 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 53.34) (xy 321.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a5035cd-cece-43bd-a63d-f9843017a01d")
+	)
+	(wire
+		(pts
+			(xy 273.05 106.68) (xy 275.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ced5043-0a9e-425b-a5fd-e14e722cc8d6")
+	)
+	(wire
+		(pts
 			(xy 152.4 121.92) (xy 152.4 116.84)
 		)
 		(stroke
@@ -1711,6 +1899,76 @@
 			(type default)
 		)
 		(uuid "2f7f5346-988c-4ab1-94db-2a3f5db30de1")
+	)
+	(wire
+		(pts
+			(xy 321.31 128.27) (xy 321.31 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32830c4f-8fad-4910-82cc-b25302610f75")
+	)
+	(wire
+		(pts
+			(xy 161.29 193.04) (xy 167.64 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345668b0-b60f-4293-81d5-e601f93812cc")
+	)
+	(wire
+		(pts
+			(xy 321.31 125.73) (xy 321.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c53022-791d-4615-a72c-1a8b35604bf4")
+	)
+	(wire
+		(pts
+			(xy 273.05 213.36) (xy 273.05 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a689981-308b-442b-b047-4cdaecb95501")
+	)
+	(wire
+		(pts
+			(xy 161.29 163.83) (xy 161.29 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cda177-cf1b-40f1-a996-140469f4cafa")
+	)
+	(wire
+		(pts
+			(xy 161.29 209.55) (xy 167.64 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45996ab0-cd05-4eb7-8147-99784a7b537b")
+	)
+	(wire
+		(pts
+			(xy 152.4 215.9) (xy 152.4 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464c9eb9-ec9f-4857-8fcf-57b4938772af")
 	)
 	(wire
 		(pts
@@ -1734,6 +1992,46 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 209.55) (xy 330.2 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e588cd5-9f7c-49eb-9702-e6e1e0e5b1b3")
+	)
+	(wire
+		(pts
+			(xy 327.66 97.79) (xy 327.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54efe528-2fee-46df-bbd8-01d598b6536a")
+	)
+	(wire
+		(pts
+			(xy 330.2 209.55) (xy 336.55 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b7ed3e-f8fe-4245-8fde-d02c8d84914a")
+	)
+	(wire
+		(pts
+			(xy 167.64 193.04) (xy 167.64 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c40cb8-cf48-45bd-a64d-fbe80c649d64")
+	)
+	(wire
+		(pts
 			(xy 158.75 82.55) (xy 161.29 82.55)
 		)
 		(stroke
@@ -1741,6 +2039,126 @@
 			(type default)
 		)
 		(uuid "591c5a2f-ab91-422e-8123-0d295eeb45cc")
+	)
+	(wire
+		(pts
+			(xy 330.2 163.83) (xy 330.2 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acc6c92-563f-4a75-9c3f-433e283ef5a5")
+	)
+	(wire
+		(pts
+			(xy 321.31 163.83) (xy 330.2 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613c5e3a-f6b4-4470-a8db-14c29d549366")
+	)
+	(wire
+		(pts
+			(xy 330.2 102.87) (xy 336.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636ade3e-8329-433b-9dc6-76c8b3c49446")
+	)
+	(wire
+		(pts
+			(xy 273.05 106.68) (xy 273.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fa3372-65cf-480f-a8d3-0c477ea04de0")
+	)
+	(wire
+		(pts
+			(xy 327.66 209.55) (xy 330.2 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645ab0f6-90a9-4e56-bd97-2f2ee767ba76")
+	)
+	(wire
+		(pts
+			(xy 271.78 213.36) (xy 273.05 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d85238-3085-4590-9c7e-9673e08ee6a0")
+	)
+	(wire
+		(pts
+			(xy 327.66 204.47) (xy 327.66 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d2e77a-7f49-4758-8a25-fe71b1f9f663")
+	)
+	(wire
+		(pts
+			(xy 104.14 232.41) (xy 152.4 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4dab72-1eb1-4957-be20-f116f00b871e")
+	)
+	(wire
+		(pts
+			(xy 330.2 102.87) (xy 330.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd8344c-a5d3-45ad-aad4-d12bd4472d53")
+	)
+	(wire
+		(pts
+			(xy 321.31 232.41) (xy 321.31 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f35e5b1-0fb6-4e50-aad8-cc1ef1676979")
+	)
+	(wire
+		(pts
+			(xy 336.55 86.36) (xy 336.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711946c7-3153-4903-bfac-803bed49d1b3")
+	)
+	(wire
+		(pts
+			(xy 330.2 86.36) (xy 336.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7199b049-a46e-4626-9996-a2f43ccc79d9")
 	)
 	(wire
 		(pts
@@ -1764,6 +2182,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 234.95) (xy 152.4 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841f9928-06df-4a59-8047-76250d0a7964")
+	)
+	(wire
+		(pts
+			(xy 158.75 193.04) (xy 161.29 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db08ac0-0d25-47e4-a15f-6c785faa0cc3")
+	)
+	(wire
+		(pts
 			(xy 152.4 73.66) (xy 152.4 77.47)
 		)
 		(stroke
@@ -1771,6 +2209,16 @@
 			(type default)
 		)
 		(uuid "8f13463a-87d4-456b-b124-2cb524095350")
+	)
+	(wire
+		(pts
+			(xy 321.31 57.15) (xy 330.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fff2354-769e-44cf-80d5-a00f4c9a4d0c")
 	)
 	(wire
 		(pts
@@ -1784,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 200.66) (xy 321.31 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93335549-7f92-4943-8c70-38490a3110c1")
+	)
+	(wire
+		(pts
 			(xy 152.4 124.46) (xy 152.4 121.92)
 		)
 		(stroke
@@ -1791,6 +2249,36 @@
 			(type default)
 		)
 		(uuid "974dd07d-dd89-4963-9541-d5fde6f17d28")
+	)
+	(wire
+		(pts
+			(xy 161.29 209.55) (xy 161.29 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986fa774-669f-4f2a-bf14-ba3c713f38f0")
+	)
+	(wire
+		(pts
+			(xy 321.31 77.47) (xy 321.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997c2c23-b6dc-4b8f-bb51-ea44a74208d2")
+	)
+	(wire
+		(pts
+			(xy 158.75 209.55) (xy 161.29 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4827248-7556-45c4-95d6-7b66eef7151c")
 	)
 	(wire
 		(pts
@@ -1814,6 +2302,46 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 57.15) (xy 330.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeababfa-ed16-4ddc-932b-964b8a256ad9")
+	)
+	(wire
+		(pts
+			(xy 327.66 196.85) (xy 327.66 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af06e870-e407-4076-9bd2-5d94c3f9e492")
+	)
+	(wire
+		(pts
+			(xy 321.31 215.9) (xy 321.31 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a87ded-da43-4f90-be42-e1e554baf1e9")
+	)
+	(wire
+		(pts
+			(xy 321.31 109.22) (xy 321.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a69729-9c3c-4a88-82ec-e595eff982a0")
+	)
+	(wire
+		(pts
 			(xy 152.4 105.41) (xy 152.4 116.84)
 		)
 		(stroke
@@ -1824,6 +2352,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 184.15) (xy 321.31 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc683dac-a700-47ce-8cd5-756f826d793a")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 158.75 99.06)
 		)
 		(stroke
@@ -1831,6 +2369,46 @@
 			(type default)
 		)
 		(uuid "bccb1cfd-4915-4e68-89f1-ceb4d3999610")
+	)
+	(wire
+		(pts
+			(xy 167.64 209.55) (xy 167.64 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be68cdf4-a9f5-4aab-9338-fc0420d8d970")
+	)
+	(wire
+		(pts
+			(xy 327.66 90.17) (xy 327.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03e8954-586f-434a-9c87-e59a88c505af")
+	)
+	(wire
+		(pts
+			(xy 330.2 193.04) (xy 336.55 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bba90e-1314-48ce-ab8f-329eb4104854")
+	)
+	(wire
+		(pts
+			(xy 336.55 193.04) (xy 336.55 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c356dd2a-55fd-4df5-bd9f-8a9abe5c281f")
 	)
 	(wire
 		(pts
@@ -1854,6 +2432,146 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 232.41) (xy 321.31 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e3854a-ca78-425d-bdfe-103214b0d0b6")
+	)
+	(wire
+		(pts
+			(xy 102.87 213.36) (xy 104.14 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd07d41f-7435-4c3d-84cf-af645b69da4d")
+	)
+	(wire
+		(pts
+			(xy 321.31 93.98) (xy 321.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced76444-d182-4d85-a706-3b305557b8c8")
+	)
+	(wire
+		(pts
+			(xy 327.66 102.87) (xy 330.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedd133f-7d47-4911-a3c4-1bbf83868e40")
+	)
+	(wire
+		(pts
+			(xy 271.78 106.68) (xy 273.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0aabbf-6f8b-4c44-9942-054d61a624f1")
+	)
+	(wire
+		(pts
+			(xy 321.31 160.02) (xy 321.31 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb82471-283a-4d73-abf6-c92b8b30604f")
+	)
+	(wire
+		(pts
+			(xy 336.55 102.87) (xy 336.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d176dd47-d79c-4a8e-bcdf-e8f793adc8e3")
+	)
+	(wire
+		(pts
+			(xy 161.29 227.33) (xy 152.4 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24081cf-e982-4561-9a5f-b31ec3a18fcc")
+	)
+	(wire
+		(pts
+			(xy 321.31 234.95) (xy 321.31 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d599504b-ef18-433e-b02a-5f3228c8a3a2")
+	)
+	(wire
+		(pts
+			(xy 327.66 86.36) (xy 330.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8391313-8ffc-4afb-ab59-11b41251963a")
+	)
+	(wire
+		(pts
+			(xy 152.4 232.41) (xy 152.4 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddfbad6-b493-4e9b-b32d-f589df00ebf7")
+	)
+	(wire
+		(pts
+			(xy 158.75 204.47) (xy 158.75 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00c7472-86b0-4c0a-b4c2-30f5587ce386")
+	)
+	(wire
+		(pts
+			(xy 273.05 125.73) (xy 321.31 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50d6c60-3320-417b-bc60-609d1bd16fdf")
+	)
+	(wire
+		(pts
+			(xy 152.4 160.02) (xy 152.4 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6321546-3517-4abe-a17a-30368e9456d7")
+	)
+	(wire
+		(pts
 			(xy 158.75 86.36) (xy 158.75 82.55)
 		)
 		(stroke
@@ -1874,6 +2592,46 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 120.65) (xy 321.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9587a8a-7688-45e5-b70a-c3b6754731e2")
+	)
+	(wire
+		(pts
+			(xy 104.14 213.36) (xy 104.14 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec33dc7-52a3-43ce-9e12-c71befd5cd7c")
+	)
+	(wire
+		(pts
+			(xy 273.05 213.36) (xy 275.59 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f366d962-5e42-4fcd-81b4-b8acb75cb398")
+	)
+	(wire
+		(pts
+			(xy 104.14 213.36) (xy 106.68 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f568554a-f5d7-45e0-98b3-423033064816")
+	)
+	(wire
+		(pts
 			(xy 152.4 49.53) (xy 152.4 53.34)
 		)
 		(stroke
@@ -1881,6 +2639,60 @@
 			(type default)
 		)
 		(uuid "f6710403-5162-499e-b1d5-d996535b210b")
+	)
+	(wire
+		(pts
+			(xy 158.75 196.85) (xy 158.75 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8467c3-9680-4ad7-83e1-a20038acf334")
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 152.4 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f0923fc-dd26-4f2b-9004-d2408bc5ca59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 153.5272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 152.4 234.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15764eb6-9e0b-4a3e-bde1-6edc23cef023")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 241.8057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3V3"
 		(shape input)
@@ -1895,6 +2707,50 @@
 		(uuid "1d76c15a-3183-4b8c-8a6f-341d44ef7cc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.4 43.0372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 321.31 234.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54c98681-3007-4a1d-b696-d42dae7e1464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.31 241.8057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 321.31 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7686abd8-0a4c-4dd2-ac45-f87ae02a7270")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.31 46.8472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2782,62 @@
 			)
 		)
 	)
-	(hierarchical_label "PA7"
+	(global_label "GND"
+		(shape input)
+		(at 321.31 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9553d37a-02ac-452b-892f-b2844828a3ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.31 135.1257 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 321.31 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dce5f361-b4e4-4ea8-945b-88928b31416b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.31 153.5272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IR_EMITTER_2"
+		(shape input)
+		(at 251.46 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5911cd2e-987c-4872-ad5f-0240cf604359")
+	)
+	(hierarchical_label "IR_EMITTER_1"
 		(shape input)
 		(at 82.55 102.87 180)
 		(effects
@@ -1936,6 +2847,101 @@
 			(justify right)
 		)
 		(uuid "6745372f-1753-4516-86c6-51c45bb2cf53")
+	)
+	(hierarchical_label "IR_EMITTER_3"
+		(shape input)
+		(at 82.55 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a788005f-e322-4268-8248-f2dc63b9e133")
+	)
+	(hierarchical_label "IR_EMITTER_4"
+		(shape input)
+		(at 251.46 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd4d013e-5917-480a-8df4-3c70828a33d3")
+	)
+	(symbol
+		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
+		(at 275.59 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "045eee01-47aa-4b90-9028-409bf66d703a")
+		(property "Reference" "U1"
+			(at 298.45 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 298.45 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MOSFET_footprints:SOT-23_1_DIO"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N7002-7-F"
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2528a19c-a073-43a4-83ea-d29ea459b7ba")
+		)
+		(pin "3"
+			(uuid "ece49bed-46f4-4eb0-8516-bf75e64a1b53")
+		)
+		(pin "2"
+			(uuid "bf94e78d-86b8-443b-9838-f0e2ee1a300c")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
@@ -2038,7 +3044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CL05A104KA5NNNC:CAPC1005X55N"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -2278,7 +3284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL10A475KP8NNNC:CAPC1608X90N"
+		(property "Footprint" "Ceramic_Capacitor_4.7uF_CL21A475KAQNNNE:CAPC2012X140N"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -2492,6 +3498,507 @@
 		)
 	)
 	(symbol
+		(lib_id "47kOhmResistor_RC0603FR-0747KL:RC0603FR-0747KL")
+		(at 273.05 224.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32712f97-1d5e-4a2a-9545-7d3635ebbeac")
+		(property "Reference" "R10"
+			(at 275.59 223.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47 kOhm"
+			(at 275.59 226.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0603FR_0747KL:RESC1608X55"
+			(at 273.05 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 273.05 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7371d45b-ea8a-48be-a204-946c5a1dad7e")
+		)
+		(pin "1"
+			(uuid "0ff3d746-d3c9-4039-b345-f0a382314791")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "51OhmResistor_RC0805FR-0751RL:RC0805FR-0751RL")
+		(at 321.31 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40553c6e-93ce-4ee7-8016-1edb6ab16137")
+		(property "Reference" "R11"
+			(at 310.388 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "51 Ohm"
+			(at 310.388 174.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0805FR_0751RL:RESC2012X60N"
+			(at 321.31 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdf2d9cf-6961-4bc3-8f2b-b33bdc0f6e67")
+		)
+		(pin "2"
+			(uuid "f9dfa0e9-df2d-4e5b-b35e-d8110b9357de")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRSensor_APT1608F3C:APT1608F3C")
+		(at 321.31 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49af03e2-8875-46e8-99f6-d488f1b825e4")
+		(property "Reference" "D1"
+			(at 316.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR Emitter"
+			(at 309.118 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "APT1608F3C:LED_APT1608F3C"
+			(at 321.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.20B"
+			(at 321.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 321.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
+			(at 321.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 321.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f0cea34-ed43-4445-89c3-ae50d3d1015e")
+		)
+		(pin "1"
+			(uuid "e15a9079-0f94-4dcd-aa22-e537cae4d3c4")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4.7µFCapacitor_CL10A475KP8NNNC:CL10A475KP8NNNC")
+		(at 158.75 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f828502-f0bb-4dec-a6ce-4147d9afd966")
+		(property "Reference" "C12"
+			(at 159.512 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 159.512 206.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Ceramic_Capacitor_4.7uF_CL21A475KAQNNNE:CAPC2012X140N"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "0.9"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.5"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "0.9"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.3"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "1.7"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "0.9"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.5"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.1"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "0.9"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "0.7"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "1.5"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "1.6"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "0.8"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.1"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.3"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70897555-b11a-4f0e-8ac1-6c83d9bfaaec")
+		)
+		(pin "2"
+			(uuid "ffb945c9-6a5e-43d5-8110-548e506716cb")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IRSensor_APT1608F3C:APT1608F3C")
 		(at 152.4 85.09 270)
 		(unit 1)
@@ -2596,6 +4103,401 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0.1µFCapacitor_CL05A104KA5NNNC:CL05A104KA5NNNC")
+		(at 336.55 201.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75927796-a4ca-4ca1-9c88-6e40133a6ca1")
+		(property "Reference" "C15"
+			(at 340.36 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 340.36 201.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "0.55"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.35"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "0.55"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.25"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "1.05"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "0.55"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.35"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.15"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "0.55"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "0.45"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "0.95"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "1.0"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "0.5"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.15"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.25"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 336.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee67d77c-a45a-4fcc-a933-af19e791864d")
+		)
+		(pin "1"
+			(uuid "94143d31-b607-4a87-bc3c-9efe0e5b7566")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "47kOhmResistor_RC0603FR-0747KL:RC0603FR-0747KL")
+		(at 104.14 224.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84bf5188-a04a-4ea7-8afd-bd1fde4b29be")
+		(property "Reference" "R7"
+			(at 106.68 223.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47 kOhm"
+			(at 106.68 226.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0603FR_0747KL:RESC1608X55"
+			(at 104.14 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 104.14 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dae194a-671b-4c52-bd36-608057374517")
+		)
+		(pin "1"
+			(uuid "c5feeee1-2f75-4697-805b-d554ca2a901e")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
+		(at 275.59 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6af7076-11c4-4257-871f-095819b4a89b")
+		(property "Reference" "U3"
+			(at 298.45 203.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 298.45 205.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MOSFET_footprints:SOT-23_1_DIO"
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N7002-7-F"
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0137a65f-2ac0-4cb8-b34b-38eef2afa05d")
+		)
+		(pin "3"
+			(uuid "a5a23230-080f-4786-9668-55b66758fb78")
+		)
+		(pin "2"
+			(uuid "b6c5cb11-91f0-46c4-880d-99d6c768a417")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2741,6 +4643,75 @@
 		)
 	)
 	(symbol
+		(lib_id "100OhmResistor_CRCW0603100RFKEA:CRCW0603100RFKEA")
+		(at 261.62 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9c900e7-e4ad-4b1b-9c37-d5bc63cd8803")
+		(property "Reference" "R3"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 Ohm"
+			(at 261.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRCW0603100RFKEA:RESC1508X50N"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e4921b6-f8f2-470c-8d0d-dc6abccc1844")
+		)
+		(pin "1"
+			(uuid "44a5365b-8436-43ed-8bc5-f15ecbc9f74b")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "47kOhmResistor_RC0603FR-0747KL:RC0603FR-0747KL")
 		(at 104.14 114.3 90)
 		(unit 1)
@@ -2816,6 +4787,1620 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MOSFET_2026-01-14_23-16-18:2N7002-7-F")
+		(at 106.68 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ee5719-34c4-4852-bdee-0794514872f5")
+		(property "Reference" "U2"
+			(at 129.54 203.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 129.54 205.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MOSFET_footprints:SOT-23_1_DIO"
+			(at 106.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "2N7002-7-F"
+			(at 106.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c11e8208-f9dd-4b96-b92f-a0ebbea6e420")
+		)
+		(pin "3"
+			(uuid "aa322d7c-2499-478c-88ab-163b7271e398")
+		)
+		(pin "2"
+			(uuid "0c2d242b-113d-487f-b792-bcbc82cc45b3")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4.7µFCapacitor_CL10A475KP8NNNC:CL10A475KP8NNNC")
+		(at 327.66 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b45813e2-5557-4b18-b93a-c120ad04df46")
+		(property "Reference" "C10"
+			(at 328.422 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 328.422 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Ceramic_Capacitor_4.7uF_CL21A475KAQNNNE:CAPC2012X140N"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "0.9"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.5"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "0.9"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.3"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "1.7"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "0.9"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.5"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.1"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "0.9"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "0.7"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "1.5"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "1.6"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "0.8"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.1"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.3"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 327.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b2325ba-74a6-443e-876a-27a297238251")
+		)
+		(pin "2"
+			(uuid "c0d829ac-ffea-4016-8fbf-7faac8d341be")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4.7µFCapacitor_CL10A475KP8NNNC:CL10A475KP8NNNC")
+		(at 327.66 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6332ba2-38eb-4b18-bc3b-e364b799097c")
+		(property "Reference" "C14"
+			(at 328.422 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 328.422 206.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Ceramic_Capacitor_4.7uF_CL21A475KAQNNNE:CAPC2012X140N"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "0.9"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.5"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "0.9"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.3"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "1.7"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "0.9"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.5"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.1"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "0.9"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "0.7"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "1.5"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "1.6"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "0.8"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.1"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.3"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 327.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cef80e07-f9be-48a3-b039-1f2ddee7c01c")
+		)
+		(pin "2"
+			(uuid "b018815f-a8ed-467a-8b41-afb2d5202645")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "51OhmResistor_RC0805FR-0751RL:RC0805FR-0751RL")
+		(at 321.31 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdccaecf-6f17-4ba5-80b9-b5a127fcdaa6")
+		(property "Reference" "R5"
+			(at 310.388 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "51 Ohm"
+			(at 310.388 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0805FR_0751RL:RESC2012X60N"
+			(at 321.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8da77cfe-eda7-414a-a73f-27efbd643304")
+		)
+		(pin "2"
+			(uuid "8e81947b-9f65-4a6d-9a3f-7bac03d2119e")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRSensor_APT1608F3C:APT1608F3C")
+		(at 152.4 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be9c3589-e284-4a70-bb25-f785e428c011")
+		(property "Reference" "D2"
+			(at 147.32 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR Emitter"
+			(at 140.208 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "APT1608F3C:LED_APT1608F3C"
+			(at 152.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.20B"
+			(at 152.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 152.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
+			(at 152.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 152.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa3ffb3a-12f0-44a7-a089-45f60705d483")
+		)
+		(pin "1"
+			(uuid "087c2cbc-cf68-47bd-97d9-5574908e4968")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "100OhmResistor_CRCW0603100RFKEA:CRCW0603100RFKEA")
+		(at 92.71 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c928ff3b-7b2d-4419-b2f2-ea29f211d7e9")
+		(property "Reference" "R6"
+			(at 92.71 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 Ohm"
+			(at 92.71 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRCW0603100RFKEA:RESC1508X50N"
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cd903dd-dfa0-466e-b636-c15bbdd2a886")
+		)
+		(pin "1"
+			(uuid "66aec3cf-e1ad-42c0-b381-7629c4358f8b")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRSensor_APT1608F3C:APT1608F3C")
+		(at 321.31 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d059ea9c-8d6d-4873-b07c-179beff5e64e")
+		(property "Reference" "D5"
+			(at 316.23 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IR Emitter"
+			(at 309.118 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "APT1608F3C:LED_APT1608F3C"
+			(at 321.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.20B"
+			(at 321.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 321.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
+			(at 321.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 321.31 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f576899-619d-4a84-8260-b0abef876a0a")
+		)
+		(pin "1"
+			(uuid "9c9e7df5-1ea2-4eb6-a059-8964d9c3a0ad")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0.1µFCapacitor_CL05A104KA5NNNC:CL05A104KA5NNNC")
+		(at 167.64 201.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d88fab3c-02ec-49c7-8ce8-0053b388f93d")
+		(property "Reference" "C13"
+			(at 171.45 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 171.45 201.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "0.55"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.35"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "0.55"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.25"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "1.05"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "0.55"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.35"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.15"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "0.55"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "0.45"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "0.95"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "1.0"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "0.5"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.15"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.25"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 167.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b66604c1-2ab6-4302-ae76-bf6008688f17")
+		)
+		(pin "1"
+			(uuid "65a1e816-e91e-4d9e-9a3a-ed618b5bf37a")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0.1µFCapacitor_CL05A104KA5NNNC:CL05A104KA5NNNC")
+		(at 336.55 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e07e90f9-9961-46c5-80b8-98ff123a4426")
+		(property "Reference" "C11"
+			(at 340.36 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 340.36 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E_max" "0.55"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_max" "0.35"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_max" "0.55"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_nom" "0.25"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_max" "1.05"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_nom" "0.55"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_max" "0.35"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_min" "0.15"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_min" "0.55"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_min" "0.45"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_min" "0.95"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_nom" "1.0"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_nom" "0.5"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_min" "0.15"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_nom" "0.25"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba5cb1fa-09fe-471d-aadc-7a1289640385")
+		)
+		(pin "1"
+			(uuid "8f8f3ad6-438b-45a8-bd5b-6e01cabdddbe")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "51OhmResistor_RC0805FR-0751RL:RC0805FR-0751RL")
+		(at 152.4 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2291837-e9a6-49c6-a3d8-4f827fdbcd91")
+		(property "Reference" "R8"
+			(at 141.478 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "51 Ohm"
+			(at 141.478 174.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0805FR_0751RL:RESC2012X60N"
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e0ce6dc-6634-4fbc-a4f7-eb157ad19cbd")
+		)
+		(pin "2"
+			(uuid "55ddcdb7-051b-4cd1-97c8-dbe28e0e5881")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "47kOhmResistor_RC0603FR-0747KL:RC0603FR-0747KL")
+		(at 273.05 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef563c91-1dac-42d4-b02d-204bdd0e1747")
+		(property "Reference" "R4"
+			(at 275.59 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47 kOhm"
+			(at 275.59 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0603FR_0747KL:RESC1608X55"
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4640667e-fce4-4776-9d2a-acbc83956e63")
+		)
+		(pin "1"
+			(uuid "521baa8b-1218-4429-81c7-5809893391f2")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "100OhmResistor_CRCW0603100RFKEA:CRCW0603100RFKEA")
+		(at 261.62 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1ec87e0-b7c2-4efb-8a07-d3855b20cf1a")
+		(property "Reference" "R9"
+			(at 261.62 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 Ohm"
+			(at 261.62 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRCW0603100RFKEA:RESC1508X50N"
+			(at 261.62 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a4a8a74-a77c-4173-a7e3-ba3aca6cd6ed")
+		)
+		(pin "1"
+			(uuid "210f1bc1-f59c-4f21-9c13-28c63270685e")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/b0ddafb5-a55e-4fac-9b6d-00a4e7161424"
+					(reference "R9")
 					(unit 1)
 				)
 			)

@@ -603,6 +603,14 @@
 		(color 0 0 0 0)
 		(uuid "f623a472-bf38-43d0-8cd8-61545ee5c109")
 	)
+	(no_connect
+		(at 99.06 62.23)
+		(uuid "5d90f59f-353d-423a-8104-9c11e605de68")
+	)
+	(no_connect
+		(at 86.36 67.31)
+		(uuid "719eec6a-d5b2-4dd2-aab0-25e473c993cf")
+	)
 	(wire
 		(pts
 			(xy 83.82 62.23) (xy 83.82 74.93)
@@ -742,7 +750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CL05A104KA5NNNC:CAPC1005X55N"
+		(property "Footprint" "Ceramic_Capacitor_0.1uF_CL21B104KBCNNNC:CAPC2012X95N"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -981,7 +989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_FSM4JSMATR_footprint:SW_4-1437565-2"
+		(property "Footprint" "Switch_4-1437565-2:SW_4-1437565-2"
 			(at 92.71 64.77 0)
 			(effects
 				(font
