@@ -3137,7 +3137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MOSFET_ul_2N7002-7-F:SOT-23_1_DIO"
 			(at 106.68 213.36 0)
 			(effects
 				(font
@@ -5511,7 +5511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MOSFET_ul_2N7002-7-F:SOT-23_1_DIO"
 			(at 106.68 102.87 0)
 			(effects
 				(font
@@ -6217,7 +6217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MOSFET_ul_2N7002-7-F:SOT-23_1_DIO"
 			(at 275.59 213.36 0)
 			(effects
 				(font
@@ -6359,7 +6359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MOSFET_ul_2N7002-7-F:SOT-23_1_DIO"
 			(at 275.59 106.68 0)
 			(effects
 				(font

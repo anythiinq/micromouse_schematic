@@ -9521,7 +9521,7 @@
 	(footprint "RC0603FR_0747KL:RESC1608X55"
 		(layer "F.Cu")
 		(uuid "ababb2e1-472e-415e-bb6a-716e24018223")
-		(at 73.7834 107.7434)
+		(at 73.35 109)
 		(descr "<b>RESISTOR</b>")
 		(property "Reference" "R3"
 			(at -0.38542 -0.986064 0)
