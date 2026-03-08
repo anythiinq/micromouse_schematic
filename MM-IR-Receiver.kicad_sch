@@ -206,46 +206,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Phototransistor_ALS-PT19-315C_L177_TR8:ALS-PT19-315C_L177_TR8"
+		(symbol "IR_Receiver_ul_LTR-4206E:LTR-4206E"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at -10.1556 5.0822 0)
+			(property "Reference" "Q"
+				(at 12.7 17.78 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "ALS-PT19-315C_L177_TR8"
-				(at -10.1508 -7.62 0)
+			(property "Value" "LTR-4206E"
+				(at 12.7 17.78 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ALS-PT19-315C_L177_TR8:XDCR_ALS-PT19-315C_L177_TR8"
+			(property "Footprint" "NoneP157X157-2_LTO"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "LTR-4206E"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -259,53 +258,39 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "5"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "ki_keywords" "LTR-4206E"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+			(property "ki_fp_filters" "NoneP157X157-2_LTO"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Everlight"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ALS-PT19-315C_L177_TR8_0_0"
+			(symbol "LTR-4206E_0_1"
 				(polyline
 					(pts
-						(xy -4.953 2.54) (xy -3.175 0.762)
+						(xy 7.62 -2.54) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -314,10 +299,10 @@
 				)
 				(polyline
 					(pts
-						(xy -4.953 0.635) (xy -3.175 -1.143)
+						(xy 7.62 -2.54) (xy 17.78 -2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -326,10 +311,10 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 1.143) (xy -3.556 1.905)
+						(xy 10.922 1.27) (xy 14.732 1.27)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -338,10 +323,22 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 1.143) (xy -3.175 0.762) (xy -3.556 1.905) (xy -4.318 1.143)
+						(xy 10.922 0) (xy 7.62 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.9293 0.0383) (xy 11.176 0.762) (xy 11.684 0.254) (xy 10.922 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -350,22 +347,10 @@
 				)
 				(polyline
 					(pts
-						(xy -4.318 -0.762) (xy -3.556 0)
+						(xy 11.684 2.794) (xy 12.7 2.794) (xy 12.192 2.032)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -0.762) (xy -3.175 -1.143) (xy -3.556 0) (xy -4.318 -0.762)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -374,10 +359,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 1.905) (xy -3.175 0.762)
+						(xy 12.192 4.826) (xy 12.192 2.794)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -386,10 +371,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.556 0) (xy -3.175 -1.143)
+						(xy 12.192 1.27) (xy 11.43 0.508)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -398,155 +383,108 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 0.762) (xy -4.318 1.143)
+						(xy 12.954 2.794) (xy 13.97 2.794) (xy 13.462 2.032)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.143) (xy -4.318 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 0 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.635) (xy 0 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.635) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.286) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.286 -1.524) (xy 1.524 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "~"
+				(polyline
+					(pts
+						(xy 13.462 4.826) (xy 13.462 2.794)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.462 1.27) (xy 14.732 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.732 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 5.08) (xy 17.78 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 7.62)
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -556,7 +494,7 @@
 		)
 	)
 	(junction
-		(at 60.96 120.65)
+		(at 60.96 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ff13105-5622-4dbf-a94d-ec14593b7f74")
@@ -568,7 +506,7 @@
 		(uuid "8cbc86b4-23c7-4694-afe3-5efb799eecf3")
 	)
 	(junction
-		(at 111.76 120.65)
+		(at 111.76 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9738e21e-5b7b-4b6f-8e73-2bd901004900")
@@ -581,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 111.76 123.19)
+			(xy 111.76 123.19) (xy 111.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -591,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 60.96 38.1)
+			(xy 60.96 21.59) (xy 60.96 22.86)
 		)
 		(stroke
 			(width 0)
@@ -601,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 111.76 38.1)
+			(xy 111.76 21.59) (xy 111.76 22.86)
 		)
 		(stroke
 			(width 0)
@@ -621,7 +559,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 118.11) (xy 111.76 120.65)
+			(xy 111.76 120.65) (xy 111.76 123.19)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +579,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 120.65) (xy 63.5 120.65)
+			(xy 60.96 123.19) (xy 63.5 123.19)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +589,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 106.68) (xy 111.76 107.95)
+			(xy 111.76 93.98) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +599,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 114.3 120.65)
+			(xy 111.76 123.19) (xy 114.3 123.19)
 		)
 		(stroke
 			(width 0)
@@ -671,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 120.65) (xy 60.96 123.19)
+			(xy 60.96 123.19) (xy 60.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -691,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 118.11) (xy 60.96 120.65)
+			(xy 60.96 120.65) (xy 60.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -731,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 106.68) (xy 60.96 107.95)
+			(xy 60.96 93.98) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -741,7 +679,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 60.96 143.51 270)
+		(at 60.96 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -751,7 +689,7 @@
 		)
 		(uuid "1d92eb56-2e19-48f5-97f0-b1b07de9c489")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 150.3657 90)
+			(at 60.96 152.9057 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +701,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 111.76 106.68 90)
+		(at 111.76 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -773,7 +711,7 @@
 		)
 		(uuid "3c4a4a09-6847-44e1-be0b-31f97709ee33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 100.1872 90)
+			(at 111.76 87.4872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +723,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 111.76 143.51 270)
+		(at 111.76 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -795,7 +733,7 @@
 		)
 		(uuid "4637c18a-63de-488b-8c81-f58fa033cd3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 150.3657 90)
+			(at 111.76 152.9057 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +789,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 60.96 106.68 90)
+		(at 60.96 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -861,7 +799,7 @@
 		)
 		(uuid "79eb1226-6789-41d3-a23d-2a84bb07ec91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 100.1872 90)
+			(at 60.96 87.4872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +811,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 111.76 36.83 90)
+		(at 111.76 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -883,7 +821,7 @@
 		)
 		(uuid "83444c7a-56df-4e45-950e-f44a229d6d6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 30.3372 90)
+			(at 111.76 15.0972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +833,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 60.96 36.83 90)
+		(at 60.96 21.59 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -905,7 +843,7 @@
 		)
 		(uuid "a7e23b40-0341-4fff-8599-fb4d4095532a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 30.3372 90)
+			(at 60.96 15.0972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +866,7 @@
 	)
 	(hierarchical_label "IR_RECEIVER_3"
 		(shape input)
-		(at 63.5 120.65 0)
+		(at 63.5 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,7 +888,7 @@
 	)
 	(hierarchical_label "IR_RECEIVER_4"
 		(shape input)
-		(at 114.3 120.65 0)
+		(at 114.3 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -960,8 +898,80 @@
 		(uuid "f488c533-3207-4af7-83e7-6aa892e1d1b7")
 	)
 	(symbol
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 111.76 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "145deb98-b8b3-435b-97f5-82382191aa3f")
+		(property "Reference" "Q4"
+			(at 115.57 106.6799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR Receiver"
+			(at 115.57 109.2199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTR-4206E"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1eb93065-d4e0-4b1e-8494-c2b7d3d170fb")
+		)
+		(pin "1"
+			(uuid "487fdfcd-c797-4acb-ae24-fd4994278774")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1.8kOhm_RMCF0805JT1K80:RMCF0805JT1K80")
-		(at 111.76 133.35 90)
+		(at 111.76 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -970,15 +980,6 @@
 		(fields_autoplaced yes)
 		(uuid "22b6b638-1469-4308-b663-3d9721517a8c")
 		(property "Reference" "R21"
-			(at 115.57 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.8 kOhm"
 			(at 115.57 134.6199 90)
 			(effects
 				(font
@@ -987,8 +988,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "1.8 kOhm"
+			(at 115.57 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "1.8_kohm_RMCF0805JT1K80:RESC2012X65N"
-			(at 111.76 133.35 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +1008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 133.35 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 133.35 0)
+			(at 111.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,222 +1041,72 @@
 		)
 	)
 	(symbol
-		(lib_id "Phototransistor_ALS-PT19-315C_L177_TR8:ALS-PT19-315C_L177_TR8")
-		(at 58.42 113.03 0)
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 60.96 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b6452f6-2eba-47ca-b4cf-db384535fd9d")
-		(property "Reference" "A3"
-			(at 64.77 111.7599 0)
+		(uuid "3c848887-4042-4b16-a629-c6ea14b499bc")
+		(property "Reference" "Q1"
+			(at 64.77 34.2899 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "IR Receiver"
-			(at 64.77 114.2999 0)
+			(at 64.77 36.8299 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "IR_Receiver_ALS-PT19-315C_L177_TR8:XDCR_ALS-PT19-315C_L177_TR8"
-			(at 58.42 113.03 0)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 58.42 113.03 0)
+		(property "Datasheet" "LTR-4206E"
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 58.42 113.03 0)
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "PARTREV" "5"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Everlight"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e66fd36b-7743-458e-bd28-43297bd21eca")
 		)
 		(pin "2"
-			(uuid "fd9d3b55-3f11-4d3c-af99-9efbfb15a0e9")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
-					(reference "A3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Phototransistor_ALS-PT19-315C_L177_TR8:ALS-PT19-315C_L177_TR8")
-		(at 109.22 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31dc3e80-c586-4ac6-b180-d363e6c27d1f")
-		(property "Reference" "A1"
-			(at 115.57 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR Receiver"
-			(at 115.57 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IR_Receiver_ALS-PT19-315C_L177_TR8:XDCR_ALS-PT19-315C_L177_TR8"
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Everlight"
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+			(uuid "bb5dff9f-e57f-41ce-b43a-903687f0a16c")
 		)
 		(pin "1"
-			(uuid "a275b5d2-c204-4fc5-855b-0763c4fd781c")
-		)
-		(pin "2"
-			(uuid "7bd2deaa-7ff0-4d82-a718-533f0acab792")
+			(uuid "69e8ab68-e538-4ca6-bdd2-4e5a4bc442b8")
 		)
 		(instances
-			(project "IREmitter"
+			(project ""
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
-					(reference "A1")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1324,119 +1184,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Phototransistor_ALS-PT19-315C_L177_TR8:ALS-PT19-315C_L177_TR8")
-		(at 109.22 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96f8f3da-121c-4990-ab53-b4dca0b64cd2")
-		(property "Reference" "A4"
-			(at 115.57 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR Receiver"
-			(at 115.57 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IR_Receiver_ALS-PT19-315C_L177_TR8:XDCR_ALS-PT19-315C_L177_TR8"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Everlight"
-			(at 109.22 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1d3064e-fb9f-4f80-bd14-cf0cb6d9244c")
-		)
-		(pin "2"
-			(uuid "2915348f-33f4-4548-af1f-0574bc38d007")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
-					(reference "A4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "1.8kOhm_RMCF0805JT1K80:RMCF0805JT1K80")
-		(at 60.96 133.35 90)
+		(at 60.96 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1445,15 +1194,6 @@
 		(fields_autoplaced yes)
 		(uuid "9aee238a-3cbd-4db0-858a-89d524068df5")
 		(property "Reference" "R20"
-			(at 64.77 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.8 kOhm"
 			(at 64.77 134.6199 90)
 			(effects
 				(font
@@ -1462,8 +1202,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "1.8 kOhm"
+			(at 64.77 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "1.8_kohm_RMCF0805JT1K80:RESC2012X65N"
-			(at 60.96 133.35 0)
+			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 133.35 0)
+			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 133.35 0)
+			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,111 +1255,144 @@
 		)
 	)
 	(symbol
-		(lib_id "Phototransistor_ALS-PT19-315C_L177_TR8:ALS-PT19-315C_L177_TR8")
-		(at 58.42 43.18 0)
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 111.76 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a09969f1-10e2-4b04-bfe1-4597f0f6125e")
-		(property "Reference" "A2"
-			(at 64.77 41.9099 0)
+		(uuid "b9a23101-844e-4156-b432-d4af665ed399")
+		(property "Reference" "Q2"
+			(at 115.57 34.2899 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "IR Receiver"
-			(at 64.77 44.4499 0)
+			(at 115.57 36.8299 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "IR_Receiver_ALS-PT19-315C_L177_TR8:XDCR_ALS-PT19-315C_L177_TR8"
-			(at 58.42 43.18 0)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 58.42 43.18 0)
+		(property "Datasheet" "LTR-4206E"
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 58.42 43.18 0)
+			(at 111.76 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "PARTREV" "5"
-			(at 58.42 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 58.42 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 58.42 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Everlight"
-			(at 58.42 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b56f2ec2-6e78-48f9-aeaa-69d10b0d9306")
 		)
 		(pin "2"
-			(uuid "3329cb52-9c8a-4ece-9d41-1003888e98be")
+			(uuid "9c3e6c96-6388-48bd-ac95-110afd4df2ac")
+		)
+		(pin "1"
+			(uuid "78124472-d7de-4b9e-8a4f-ab650ab34249")
 		)
 		(instances
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
-					(reference "A2")
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 60.96 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daf7df36-af56-47bd-9c72-80b095a1dd38")
+		(property "Reference" "Q3"
+			(at 64.77 106.6799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR Receiver"
+			(at 64.77 109.2199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTR-4206E"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "803876b6-33f1-4386-91f7-973a57c7c4cf")
+		)
+		(pin "1"
+			(uuid "6daff8dc-4f6b-4ed3-ae9f-052b4cc5650b")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "Q3")
 					(unit 1)
 				)
 			)

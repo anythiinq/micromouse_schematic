@@ -5,6 +5,22 @@
 	(uuid "d311851a-8b0b-4acf-b2e7-1b968b2adbe7")
 	(paper "A2")
 	(lib_symbols)
+	(junction
+		(at 228.6 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "368856f3-f5e5-428d-bc47-4b936433be78")
+	)
+	(wire
+		(pts
+			(xy 215.9 115.57) (xy 228.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014b0e76-7c7c-454d-8e90-6a3e7031a35e")
+	)
 	(wire
 		(pts
 			(xy 266.7 123.19) (xy 292.1 123.19)
@@ -77,6 +93,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 113.03) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6d8da4-ed94-4942-bf03-8b4b214e89c3")
+	)
+	(wire
+		(pts
 			(xy 266.7 93.98) (xy 292.1 93.98)
 		)
 		(stroke
@@ -107,6 +133,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932004d3-12fb-4349-9a32-63c8fb1e51b5")
+	)
+	(wire
+		(pts
 			(xy 215.9 93.98) (xy 228.6 93.98)
 		)
 		(stroke
@@ -124,6 +160,16 @@
 			(type default)
 		)
 		(uuid "9722ed13-d92c-4f17-a2a2-6fb79645c0ef")
+	)
+	(wire
+		(pts
+			(xy 215.9 106.68) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee13d40-016b-45f8-bd4b-75bab8d610e8")
 	)
 	(wire
 		(pts
@@ -161,7 +207,7 @@
 			)
 		)
 		(property "Sheetfile" "MM-Reset-Button.kicad_sch"
-			(at 194.31 101.6 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,6 +524,26 @@
 				(justify right)
 			)
 		)
+		(pin "SWDIO" input
+			(at 228.6 115.57 180)
+			(uuid "5d97f203-b248-41e7-a0ad-82176fb73768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 228.6 118.11 180)
+			(uuid "ed8f75be-be91-432b-b039-e8f8bf67ef29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7"
@@ -691,6 +757,78 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 109.22)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb69d768-066e-4777-a725-fdf4f103ecbb")
+		(property "Sheetname" "Programming Header"
+			(at 177.8 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "prog_header.kicad_sch"
+			(at 177.8 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NRST" input
+			(at 215.9 113.03 0)
+			(uuid "f5c7ea86-6201-427a-820c-f37627a9649d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" input
+			(at 215.9 115.57 0)
+			(uuid "a39c3ac0-3722-413a-a600-bad105de78f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 215.9 118.11 0)
+			(uuid "7929f48a-f9fd-472a-ab28-06016643f374")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7"
+					(page "9")
 				)
 			)
 		)

@@ -2835,7 +2835,7 @@
 		)
 		(uuid "3023dc9f-386c-40d7-9238-011380ba69ca")
 	)
-	(hierarchical_label "INPUT_4"
+	(hierarchical_label "INPUT_3"
 		(shape input)
 		(at 92.71 93.98 180)
 		(effects
@@ -2846,7 +2846,7 @@
 		)
 		(uuid "d36d465c-06ab-4130-980f-cadddfbd7cdc")
 	)
-	(hierarchical_label "INPUT_3"
+	(hierarchical_label "INPUT_4"
 		(shape input)
 		(at 100.33 91.44 180)
 		(effects

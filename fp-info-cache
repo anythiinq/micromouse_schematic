@@ -1,4 +1,60 @@
-25625347306413817
+25711464077786503
+1.8_kohm_RMCF0805JT1K80
+RESC2012X65N
+
+
+0
+2
+2
+1uF_CL10B105KP8NNNC
+CAPC1608X90N
+
+
+0
+2
+2
+2.2uF_CL21A226MPQNNNE
+CAPC2012X140N
+
+
+0
+2
+2
+10_kohm_RMCF0805FT10K0
+RESC2012X65N
+
+
+0
+2
+2
+47_kohm_RC0603FR-0747KL
+RESC1608X55
+<b>RESISTOR</b>
+
+0
+2
+2
+51_ohm_RC0805FR-0751RL
+RESC2012X60N
+
+
+0
+2
+2
+100_ohm_CRCW0603100RFKEA
+RESC1508X50N
+
+
+0
+2
+2
+330_ohm_RC0603FR-07330RL
+RESC1607X60N
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6810,6 +6866,13 @@ tag connect programming header pogo pins
 0
 14
 14
+Connector_01x04_PPTC041LFBN-RC
+SULLINS_PPTC041LFBN-RC
+
+
+0
+4
+4
 Connector_AMASS
 AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
 Connector MR30 Horizontal PCB Female, https://www.tme.eu/Document/4a6895c4a2c7eddf355b391fd904cb53/MR30PW-FB.pdf
@@ -60388,6 +60451,34 @@ heatsink
 0
 0
 0
+IR_Emitter_APT1608F3C
+LED_APT1608F3C
+
+
+0
+2
+2
+IR_Emitter_TSAL6400
+LEDRD254W55D595H900
+940 nm 100 mA ±25° Through Hole High Power Infrared Emitting Diode - T-1 3/4
+
+0
+2
+2
+IR_Receiver_ALS-PT19-315C_L177_TR8
+XDCR_ALS-PT19-315C_L177_TR8
+
+
+0
+2
+2
+IR_Receiver_ul_LTR-4206E
+NoneP157X157-2_LTO
+
+LTR-4206E 
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -67906,6 +67997,20 @@ Yellow 5381 Series LED
 0
 2
 2
+LED_WL-TMRC_5MM
+WL-TMRC_5MM
+
+
+0
+2
+2
+MOSFET_ul_2N7002-7-F
+SOT-23_1_DIO
+
+2N7002-7-F 
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -89277,6 +89382,13 @@ XDCR_SFH_313_FA-3_4
 0
 2
 2
+Pololu_Motor
+Pololu_Motor
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -94338,6 +94450,13 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+Slide_Switch_EG1218
+SW_EG1218
+
+
+0
+3
+3
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -94443,6 +94562,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch_4-1437565-2
+SW_4-1437565-2
+
+
+0
+4
+4
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -102696,3 +102822,220 @@ SOT230P700X185-4N
 0
 4
 4
+bfr_connectors
+67P M-Key NGFF
+M-key 67P NGFF Edgecard Footprint
+M-key, 67P, NGFF, Edgecard
+0
+67
+67
+bfr_connectors
+MODULE_NUCLEO-L432KC
+
+
+0
+30
+30
+bfr_connectors
+MOLEX_2068320401
+
+
+0
+4
+4
+bfr_connectors
+MX150L-4P
+4-pin MX150L MX150 Panel Mount THT Solder
+194270032 
+0
+4
+4
+bfr_connectors
+SODIMM-260 DDR4
+
+
+0
+260
+260
+bfr_connectors
+TE_1-2199119-5
+General M.2 M-key NGFF NVME Connector SMD
+
+0
+71
+70
+bfr_connectors
+THT SMA
+THT SMA connector solder terminal
+
+0
+5
+2
+bfr_crystals
+ABM3-16.000MHZ-D2Y-T
+SMD-2 Crystal, 16MHz, 7pF C_0, 18pF C_L, 40 ESR, 1.01 mA/V gmcrit, 20ppm
+
+0
+2
+2
+bfr_crystals
+SIT1602AC-12-33E-8.192000
+
+
+0
+4
+4
+bfr_crystals
+Untitled
+
+
+0
+4
+4
+bfr_diodes
+TO-277-340BQ
+
+
+0
+3
+2
+bfr_inductors
+BWVS005050404R7M00
+4.7uH 3.2A 32mOhm 5x5mm SMD Power Inductor
+
+0
+2
+2
+bfr_inductors
+CDRH104RNP-150NC
+
+
+0
+2
+2
+bfr_inductors
+DR127-4R7-R
+
+
+0
+2
+2
+bfr_inductors
+ETQ-P3M150KVN
+
+
+0
+2
+2
+bfr_logos
+BFR
+
+
+0
+0
+0
+bfr_logos
+BFR_Medium
+
+
+0
+0
+0
+bfr_logos
+BFR_Small
+
+
+0
+0
+0
+bfr_potentiometers
+TC33X-2-103E
+
+
+0
+3
+3
+bfr_sensors
+Quectel LC49
+Quectel RTK GPS GNSS Heading Moving Baseline
+Quectel RTK GPS GNSS Heading Moving Baseline
+0
+24
+24
+bfr_transformers
+750311692
+Flyback Transformer, 5:5:1, 1A Isat, 80uH, 8.7:8.7:0.325Ω DCR, 1500VAC 600VDC
+
+0
+8
+8
+bfr_transformers
+WE-OLLT_RM10_L31.5W31.5W20.5
+<b>WE-OLLT Offline Flyback Transformers<br></b><br>Size: RM10,THT,10pins<br>LXWXH=31.5X31.5X20.5mm
+
+0
+11
+11
+bfr_utilities
+1.3 OLED Display
+1.3" OLED Display
+
+0
+4
+4
+bfr_utilities
+0402 Jumper NC
+
+
+0
+2
+2
+bfr_utilities
+0402 Jumper NO
+
+
+0
+2
+2
+bfr_utilities
+MP3V5010DP
+Pressure Sensor 1.45PSI (10kPa) Differential Male - 0.13" (3.3mm) Tube, Dual 0.1 V ~ 3.1 V 8-BSOP (0.475", 12.06mm Width) Dual Ports, Same Side
+
+0
+8
+8
+bfr_utilities
+TestPoint_Keystone_5019_Miniature
+Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357
+Test Point
+0
+1
+1
+haha funny
+YOSHINOYA_huge
+
+
+0
+0
+0
+haha funny
+YOSHINOYA_small
+
+
+0
+0
+0
+haha funny
+horton_huge
+
+
+0
+0
+0
+haha funny
+horton_small
+
+
+0
+0
+0

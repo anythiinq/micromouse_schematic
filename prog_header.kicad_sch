@@ -2,18 +2,18 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "88687962-a3be-49c4-b323-f7d10e6c4632")
+	(uuid "9e824851-f574-4f15-a6da-c853eadfc134")
 	(paper "A4")
 	(lib_symbols
-		(symbol "330_ohm_RC0603FR-07330RL:RC0603FR-07330RL"
+		(symbol "Connector_01x04_PPTC041LFBN-RC:PPTC041LFBN-RC"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
+			(property "Reference" "J"
+				(at -7.62 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "RC0603FR-07330RL"
-				(at -3.81 -3.302 0)
+			(property "Value" "PPTC041LFBN-RC"
+				(at -7.62 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RC0603FR-07330RL:RESC1607X60N"
+			(property "Footprint" "PPTC041LFBN-RC:SULLINS_PPTC041LFBN-RC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey_Part_Number" "311-330HRCT-ND"
+			(property "DigiKey_Part_Number" "S7002-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -88,7 +88,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Yageo"
+			(property "Package" "None"
 				(at 0 0 0)
 				(effects
 					(font
@@ -98,7 +98,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "0603 Yageo"
+			(property "Check_prices" "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -108,7 +108,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=eda"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
@@ -118,7 +118,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "RC0603FR-07330RL"
+			(property "PARTREV" "J - 04/15/2015"
 				(at 0 0 0)
 				(effects
 					(font
@@ -128,13 +128,53 @@
 					(hide yes)
 				)
 			)
-			(symbol "RC0603FR-07330RL_0_0"
+			(property "MF" "Sullins Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PPTC041LFBN-RC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "4 Position Header Connector 0.100 (2.54mm) Through Hole Tin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "SULLINS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PPTC041LFBN-RC_0_0"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
+						(xy -7.62 5.08) (xy -1.27 5.08)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -143,10 +183,58 @@
 				)
 				(polyline
 					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
+						(xy -7.62 -7.62) (xy -7.62 5.08)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.905 3.175)
+					(mid -1.2727 2.54)
+					(end -1.905 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.905 0.635)
+					(mid -1.2727 0)
+					(end -1.905 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.905 -1.905)
+					(mid -1.2727 -2.54)
+					(end -1.905 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.905 -4.445)
+					(mid -1.2727 -5.08)
+					(end -1.905 -5.715)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -155,10 +243,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
+						(xy -1.27 -7.62) (xy -7.62 -7.62)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -167,10 +255,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
+						(xy 0 3.81) (xy -1.27 5.08)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -179,10 +267,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
+						(xy 0 3.81) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -191,10 +279,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
+						(xy 0 2.54) (xy -1.27 2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -203,10 +291,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
+						(xy 0 2.54) (xy 0 -6.35)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -215,10 +303,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
+						(xy 0 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -227,10 +315,34 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
+						(xy 0 -2.54) (xy -1.27 -2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy -1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -238,9 +350,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at 5.08 2.54 180)
 					(length 5.08)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -256,9 +368,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 5.08 0 180)
 					(length 5.08)
-					(name "~"
+					(name "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -273,191 +385,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PowerIndicatorLED_WL-TMRC_5MM:WL-TMRC_5MM"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.396 4.072 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "WL-TMRC_5MM"
-				(at -1.652 -3.436 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "WL-TMRC_5MM:WL-TMRC_5MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WL-TMRC_5MM_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.032) (xy -0.381 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.905) (xy 0.762 3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 3.429) (xy -1.27 3.048) (xy -0.762 2.54) (xy -0.381 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.302) (xy -0.127 2.921) (xy 0.381 2.413) (xy 0.762 3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(text "+"
-					(at -3.58 -1.34 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -466,16 +404,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "~"
+					(at 5.08 -5.08 180)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -588,70 +526,51 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 132.08 107.95) (xy 132.08 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b8c27cc-af87-463e-aeb9-0cb5a8bde055")
-	)
-	(wire
-		(pts
-			(xy 132.08 95.25) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cfbe6d3-25a0-415a-ae16-80e99adc0a27")
-	)
-	(wire
-		(pts
-			(xy 132.08 76.2) (xy 132.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f22dbf37-77a9-45cb-9351-bdfb7bf25d97")
-	)
-	(global_label "3V3"
+	(hierarchical_label "SWDIO"
 		(shape input)
-		(at 132.08 76.2 90)
-		(fields_autoplaced yes)
+		(at 124.46 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6e587ec0-48f6-4247-a71b-b0b743d35107")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 69.7072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "427fd906-f04a-42ef-8b09-2da8b22941de")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 124.46 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "a77a2fca-95ae-4531-9ae4-0d2501c44bf3")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 124.46 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca1bb4e4-313f-4053-8f8b-5cfc80e2a624")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 109.22 0)
+		(at 124.46 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "33342e61-a136-4158-838a-4d0d096c6d94")
-		(property "Reference" "#PWR018"
-			(at 132.08 115.57 0)
+		(uuid "aeb361ef-3fb3-4f32-bb76-4c4a62484959")
+		(property "Reference" "#PWR04"
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,15 +579,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 114.3 0)
+			(at 128.27 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 109.22 0)
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 109.22 0)
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 109.22 0)
+			(at 124.46 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,47 +615,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "b45495c2-810e-4472-ab66-2d92858ab357")
+			(uuid "2a85afca-508d-4084-bffd-daef9076539d")
 		)
 		(instances
 			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/7e232de8-a719-408b-a25a-fa0b7a2171cb"
-					(reference "#PWR018")
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/bb69d768-066e-4777-a725-fdf4f103ecbb"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PowerIndicatorLED_WL-TMRC_5MM:WL-TMRC_5MM")
-		(at 132.08 105.41 270)
+		(lib_id "Connector_01x04_PPTC041LFBN-RC:PPTC041LFBN-RC")
+		(at 119.38 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76187334-ff30-489b-9b6a-9bde8797616a")
-		(property "Reference" "D5"
-			(at 137.16 102.769 90)
+		(uuid "f716b582-655d-4919-b986-4be216c2d876")
+		(property "Reference" "J1"
+			(at 115.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Power Indicator LED"
-			(at 137.16 105.309 90)
+		(property "Value" "PPTC041LFBN-RC"
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LED_WL-TMRC_5MM:WL-TMRC_5MM"
-			(at 132.08 105.41 0)
+		(property "Footprint" "Connector_01x04_PPTC041LFBN-RC:SULLINS_PPTC041LFBN-RC"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 105.41 0)
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 105.41 0)
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,51 +680,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "744a7e04-b8bd-43ae-b14d-f1de2d1cfc60")
-		)
-		(pin "2"
-			(uuid "7603a86b-21ab-4e5b-bf7c-40fb2cf69d45")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/7e232de8-a719-408b-a25a-fa0b7a2171cb"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "330_ohm_RC0603FR-07330RL:RC0603FR-07330RL")
-		(at 132.08 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f9812e3-dbe1-444d-85c5-67fa6411a4c9")
-		(property "Reference" "R18"
-			(at 134.62 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330 Ohm"
-			(at 134.62 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "330_ohm_RC0603FR-07330RL:RESC1607X60N"
-			(at 132.08 87.63 0)
+		(property "DigiKey_Part_Number" "S7002-ND"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,26 +690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "311-330HRCT-ND"
-			(at 132.08 87.63 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=snap"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,8 +700,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=snap"
-			(at 132.08 87.63 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.5mm"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,8 +710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 132.08 87.63 0)
+		(property "Package" "None"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,8 +720,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
-			(at 132.08 87.63 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=eda"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,8 +730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603 Yageo"
-			(at 132.08 87.63 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,8 +740,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07330RL/Yageo/view-part/?ref=eda"
-			(at 132.08 87.63 0)
+		(property "PARTREV" "J - 04/15/2015"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,8 +750,38 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-07330RL"
-			(at 132.08 87.63 0)
+		(property "MF" "Sullins Connector"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PPTC041LFBN-RC"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "4 Position Header Connector 0.100 (2.54mm) Through Hole Tin"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SULLINS"
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,15 +791,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "43450146-6f8e-4b16-a879-ee6b5a698da4")
+			(uuid "a9e784f2-16bf-40b9-8e51-a701df127549")
+		)
+		(pin "3"
+			(uuid "882c6a99-2ae6-43a6-ae0e-77b68f6457a5")
+		)
+		(pin "4"
+			(uuid "98907e4e-acc9-4332-a66e-478fa169bf78")
 		)
 		(pin "1"
-			(uuid "fccc79a0-d2db-4d6e-8286-d5db7095251e")
+			(uuid "f95a3201-9287-4337-a31b-204489a13466")
 		)
 		(instances
 			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/7e232de8-a719-408b-a25a-fa0b7a2171cb"
-					(reference "R18")
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/bb69d768-066e-4777-a725-fdf4f103ecbb"
+					(reference "J1")
 					(unit 1)
 				)
 			)
