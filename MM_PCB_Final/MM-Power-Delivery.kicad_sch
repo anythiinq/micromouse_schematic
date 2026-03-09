@@ -2869,7 +2869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "MGND"
 			(at 74.93 123.19 0)
 			(effects
 				(font

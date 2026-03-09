@@ -1,0 +1,1472 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ca9b7e0f-eb43-4796-832d-ce205c80456b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "1.8kOhm_RMCF0805JT1K80:RMCF0805JT1K80"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RMCF0805JT1K80"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RMCF0805JT1K80:RESC2012X65N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0805JT1K80_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "IR_Receiver_ul_LTR-4206E:LTR-4206E"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 12.7 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LTR-4206E"
+				(at 12.7 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "NoneP157X157-2_LTO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "LTR-4206E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LTR-4206E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "NoneP157X157-2_LTO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTR-4206E_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 17.78 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.922 1.27) (xy 14.732 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.922 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.9293 0.0383) (xy 11.176 0.762) (xy 11.684 0.254) (xy 10.922 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.684 2.794) (xy 12.7 2.794) (xy 12.192 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.192 4.826) (xy 12.192 2.794)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.192 1.27) (xy 11.43 0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.954 2.794) (xy 13.97 2.794) (xy 13.462 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.462 4.826) (xy 13.462 2.794)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.462 1.27) (xy 14.732 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.732 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 5.08) (xy 17.78 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 60.96 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ff13105-5622-4dbf-a94d-ec14593b7f74")
+	)
+	(junction
+		(at 111.76 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cbc86b4-23c7-4694-afe3-5efb799eecf3")
+	)
+	(junction
+		(at 111.76 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9738e21e-5b7b-4b6f-8e73-2bd901004900")
+	)
+	(junction
+		(at 60.96 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e33ccb-4a7e-4b2b-9a62-8e57854265c4")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 111.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fff3ab1-518a-4565-a0b0-0684f7729e69")
+	)
+	(wire
+		(pts
+			(xy 60.96 21.59) (xy 60.96 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23192c85-322c-4b47-8ce3-3073b53dc7e7")
+	)
+	(wire
+		(pts
+			(xy 111.76 21.59) (xy 111.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f222a5-2d5b-4f95-9732-d3dc83fbac9d")
+	)
+	(wire
+		(pts
+			(xy 60.96 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf328b6-1d82-4a47-b2a4-d5f9ddb089f2")
+	)
+	(wire
+		(pts
+			(xy 111.76 120.65) (xy 111.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d54e09a-65ff-4f46-a69c-4f98f5eb7315")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624ab5f4-4de5-4025-857e-37fbf7ddecea")
+	)
+	(wire
+		(pts
+			(xy 60.96 123.19) (xy 63.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665883a7-87f9-44c3-8700-5393c019a602")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 111.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b787a88-e32b-4ef6-8181-b7d77290125d")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85004fc1-579a-4a1f-ab21-fe6a3deb6679")
+	)
+	(wire
+		(pts
+			(xy 60.96 123.19) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe35b64-c0fe-497d-9f91-91a9b694871f")
+	)
+	(wire
+		(pts
+			(xy 60.96 50.8) (xy 60.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1593b80-d71a-40c6-a927-26a6de3d492f")
+	)
+	(wire
+		(pts
+			(xy 60.96 120.65) (xy 60.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f76819-47b3-4973-b98b-be0cdd2486cc")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de92640e-feff-4dfa-9704-d68fe6bf86ff")
+	)
+	(wire
+		(pts
+			(xy 111.76 50.8) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e771e895-e00a-4aca-a071-e3138e9142e2")
+	)
+	(wire
+		(pts
+			(xy 111.76 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d35e00-b1c3-457d-80fd-f30b7e230a9a")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.98) (xy 60.96 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4cc10d-2f39-4748-94b2-379bf06338e5")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 60.96 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d92eb56-2e19-48f5-97f0-b1b07de9c489")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 152.9057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 111.76 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c4a4a09-6847-44e1-be0b-31f97709ee33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 87.4872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 111.76 146.05 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4637c18a-63de-488b-8c81-f58fa033cd3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 152.9057 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 111.76 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66dd73f3-b7f4-4fa1-9f75-dd0154c91d3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 80.5157 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 60.96 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e04609a-5ec4-4141-bc18-131437f19e16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 80.5157 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 60.96 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79eb1226-6789-41d3-a23d-2a84bb07ec91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 87.4872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 111.76 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83444c7a-56df-4e45-950e-f44a229d6d6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 15.0972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 60.96 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7e23b40-0341-4fff-8599-fb4d4095532a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 15.0972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "IR_RECEIVER_1"
+		(shape input)
+		(at 63.5 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4848d42e-69a1-44f8-b407-7c8e8125e03d")
+	)
+	(hierarchical_label "IR_RECEIVER_3"
+		(shape input)
+		(at 63.5 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77ea1d3a-9bff-4b6e-89bf-e05c0ca3c13b")
+	)
+	(hierarchical_label "IR_RECEIVER_2"
+		(shape input)
+		(at 114.3 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3d220c5-5656-43b8-beb3-079967633490")
+	)
+	(hierarchical_label "IR_RECEIVER_4"
+		(shape input)
+		(at 114.3 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f488c533-3207-4af7-83e7-6aa892e1d1b7")
+	)
+	(symbol
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 111.76 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "145deb98-b8b3-435b-97f5-82382191aa3f")
+		(property "Reference" "Q4"
+			(at 115.57 106.6799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR Receiver"
+			(at 115.57 109.2199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTR-4206E"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1eb93065-d4e0-4b1e-8494-c2b7d3d170fb")
+		)
+		(pin "1"
+			(uuid "487fdfcd-c797-4acb-ae24-fd4994278774")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1.8kOhm_RMCF0805JT1K80:RMCF0805JT1K80")
+		(at 111.76 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22b6b638-1469-4308-b663-3d9721517a8c")
+		(property "Reference" "R21"
+			(at 115.57 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 kOhm"
+			(at 115.57 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1.8_kohm_RMCF0805JT1K80:RESC2012X65N"
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7096902b-8460-45c2-9e23-afe01a0b6c57")
+		)
+		(pin "2"
+			(uuid "09a3c2b6-a682-418a-a5bf-8e89abfbaa36")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 60.96 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c848887-4042-4b16-a629-c6ea14b499bc")
+		(property "Reference" "Q1"
+			(at 64.77 34.2899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR Receiver"
+			(at 64.77 36.8299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTR-4206E"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb5dff9f-e57f-41ce-b43a-903687f0a16c")
+		)
+		(pin "1"
+			(uuid "69e8ab68-e538-4ca6-bdd2-4e5a4bc442b8")
+		)
+		(instances
+			(project ""
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1.8kOhm_RMCF0805JT1K80:RMCF0805JT1K80")
+		(at 111.76 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8232b13b-7cf5-4c89-bea8-d565da7d6930")
+		(property "Reference" "R19"
+			(at 115.57 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 kOhm"
+			(at 115.57 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1.8_kohm_RMCF0805JT1K80:RESC2012X65N"
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be9984c0-1973-4398-beca-b84e6e399859")
+		)
+		(pin "2"
+			(uuid "c36e6007-6f8a-4e2b-a409-2b655bc66d9d")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1.8kOhm_RMCF0805JT1K80:RMCF0805JT1K80")
+		(at 60.96 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aee238a-3cbd-4db0-858a-89d524068df5")
+		(property "Reference" "R20"
+			(at 64.77 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 kOhm"
+			(at 64.77 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1.8_kohm_RMCF0805JT1K80:RESC2012X65N"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "767b08ea-4ac3-4d99-be89-af99362094dc")
+		)
+		(pin "2"
+			(uuid "09a5ee3e-3e1c-4519-95c7-518b7310a40a")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 111.76 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a23101-844e-4156-b432-d4af665ed399")
+		(property "Reference" "Q2"
+			(at 115.57 34.2899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR Receiver"
+			(at 115.57 36.8299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTR-4206E"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c3e6c96-6388-48bd-ac95-110afd4df2ac")
+		)
+		(pin "1"
+			(uuid "78124472-d7de-4b9e-8a4f-ab650ab34249")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IR_Receiver_ul_LTR-4206E:LTR-4206E")
+		(at 60.96 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daf7df36-af56-47bd-9c72-80b095a1dd38")
+		(property "Reference" "Q3"
+			(at 64.77 106.6799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IR Receiver"
+			(at 64.77 109.2199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "IR_Receiver_ul_LTR-4206E:NoneP157X157-2_LTO"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LTR-4206E"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "803876b6-33f1-4386-91f7-973a57c7c4cf")
+		)
+		(pin "1"
+			(uuid "6daff8dc-4f6b-4ed3-ae9f-052b4cc5650b")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1.8kOhm_RMCF0805JT1K80:RMCF0805JT1K80")
+		(at 60.96 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21b1d5b-7131-436b-a416-a33724655263")
+		(property "Reference" "R17"
+			(at 64.77 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.8 kOhm"
+			(at 64.77 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1.8_kohm_RMCF0805JT1K80:RESC2012X65N"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1be575d-d7b5-4653-bae9-3eb0ae69192c")
+		)
+		(pin "2"
+			(uuid "19338f18-dc72-497b-a3a6-ac8a2e803d2f")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/a2cdef98-9bd1-43e4-b13c-ed9d521cb9c8"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

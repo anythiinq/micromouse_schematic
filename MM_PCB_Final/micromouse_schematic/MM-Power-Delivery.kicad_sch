@@ -575,6 +575,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "AZ1117IH-3.3TRG1_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AZ1117IH-3.3TRG1"
+				(at -12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AZ1117IH-3.3TRG1:SOT230P700X185-4N"
+				(at 1.27 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PACKAGE_ID" "6532"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.85 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 2.54 16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-223 Diodes Inc."
+				(at 0.254 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
+				(at -1.27 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "2-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
+				(at -0.508 16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "AZ1117IH-3.3TRG1"
+				(at 0 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Linear Voltage Regulator IC Positive Fixed 1 Output  1A SOT-223-3"
+				(at -0.254 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -0.508 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "AZ1117IH-3.3TRG1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AZ1117IH-3.3TRG1_1_0_0"
+				(rectangle
+					(start -12.7 -7.62)
+					(end 12.7 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JSTConnector_B2B-PH-K-S:B2B-PH-K-S"
 			(pin_names
 				(offset 1.016)
@@ -1077,286 +1357,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VoltageRegulator_AZ1117IH-3.3TRG1:AZ1117IH-3.3TRG1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AZ1117IH-3.3TRG1"
-				(at -12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AZ1117IH-3.3TRG1:SOT230P700X185-4N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Diodes Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PACKAGE_ID" "6532"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.85 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-223 Diodes Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "2-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "AZ1117IH-3.3TRG1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Linear Voltage Regulator IC Positive Fixed 1 Output  1A SOT-223-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Diodes Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "AZ1117IH-3.3TRG1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "AZ1117IH-3.3TRG1_0_0"
-				(rectangle
-					(start -12.7 -7.62)
-					(end 12.7 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "INPUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1453,6 +1453,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1585,20 +1686,44 @@
 		)
 	)
 	(junction
+		(at 74.93 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229946b8-74db-4ad5-ba71-32bfe2dfbe1f")
+	)
+	(junction
+		(at 57.15 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2771c126-890b-4a33-b44e-63d27faf3297")
+	)
+	(junction
 		(at 129.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60afe190-3729-4609-80e2-565d88abfa0c")
+		(uuid "4991264d-1804-446c-b30b-36eb5595e934")
 	)
 	(junction
 		(at 172.72 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6349744-4874-436f-9751-a3372bebf912")
+		(uuid "4a301773-d5ca-4366-801d-5572f23fb9cf")
+	)
+	(junction
+		(at 130.81 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96356487-a033-431e-861b-95dacf0247f6")
+	)
+	(junction
+		(at 74.93 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa1d6ea7-59d3-4afd-8370-c3f38b78b788")
 	)
 	(no_connect
-		(at 82.55 88.9)
-		(uuid "f4907c51-87fc-4910-9c46-e5b81a8a5ebb")
+		(at 119.38 102.87)
+		(uuid "ce6e26bd-8d07-469b-a71d-c2611feded78")
 	)
 	(wire
 		(pts
@@ -1622,13 +1747,33 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 91.44) (xy 129.54 91.44)
+			(xy 167.64 96.52) (xy 172.72 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e001bc7-f1a2-48fc-8c19-7d498709ae03")
+		(uuid "0419cae3-3313-42dc-9592-088f177eaac2")
+	)
+	(wire
+		(pts
+			(xy 124.46 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d69f14-5408-4c69-bdec-64da5acc025f")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16de7fd2-a026-467a-bd5c-73731d767e37")
 	)
 	(wire
 		(pts
@@ -1642,7 +1787,27 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 74.93 118.11)
+			(xy 130.81 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b43437-e56a-440f-a3cb-eef79cc85419")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301efcb5-a8f0-42b7-be57-b2a2bd3083bc")
+	)
+	(wire
+		(pts
+			(xy 74.93 114.3) (xy 74.93 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1652,27 +1817,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 82.55 83.82)
+			(xy 172.72 91.44) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "442db123-751a-42ce-89e2-071bcaadfe3c")
+		(uuid "595e9eea-81aa-465e-ab95-649286d8935c")
 	)
 	(wire
 		(pts
-			(xy 74.93 80.01) (xy 74.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d4d2c0-d771-40d5-a867-96900effad63")
-	)
-	(wire
-		(pts
-			(xy 132.08 91.44) (xy 129.54 91.44)
+			(xy 132.08 91.44) (xy 130.81 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 74.93 97.79)
+			(xy 74.93 92.71) (xy 74.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1712,13 +1867,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 172.72 96.52)
+			(xy 74.93 88.9) (xy 121.92 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77ef8fcb-a8ab-479c-847e-0295e1c95c95")
+		(uuid "7252887c-55ef-47a9-89b5-6f75ac6ab38d")
 	)
 	(wire
 		(pts
@@ -1742,16 +1897,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 172.72 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e52434c-1341-4a0e-b065-e588a724a9f7")
-	)
-	(wire
-		(pts
 			(xy 129.54 87.63) (xy 129.54 91.44)
 		)
 		(stroke
@@ -1762,23 +1907,43 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 91.44) (xy 124.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c9b78b-8b46-48ec-8b2d-cb15da54409b")
+	)
+	(wire
+		(pts
 			(xy 167.64 91.44) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8eaa079-3943-4c90-8d65-e0365440d890")
+		(uuid "c00a0e84-5752-4cf3-ba5e-86eac1467fd4")
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 172.72 91.44)
+			(xy 121.92 88.9) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0bc7c05-1e05-4e7a-a6cb-4aa4668ffa53")
+		(uuid "c4bd84e5-4c3d-49d6-a231-b01753277353")
+	)
+	(wire
+		(pts
+			(xy 57.15 92.71) (xy 74.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69dce59-bb2b-4eff-aaf5-de1f48090e01")
 	)
 	(wire
 		(pts
@@ -1792,23 +1957,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 167.64 96.52)
+			(xy 172.72 96.52) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce8b7817-3b75-432b-81c9-5880d699b00a")
-	)
-	(wire
-		(pts
-			(xy 74.93 86.36) (xy 82.55 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7785df-3451-4fb5-898d-c83b54150e66")
+		(uuid "de354431-7b02-41b8-9fc1-2b175623329e")
 	)
 	(wire
 		(pts
@@ -1870,7 +2025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_Connector_B2B-PH-K-S:JST_B2B-PH-K-S"
+		(property "Footprint" "B2B_PH_K_S:JST_B2B-PH-K-S"
 			(at 88.9 114.3 0)
 			(effects
 				(font
@@ -1951,7 +2106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Ceramic_Capacitor_10uF_GRM21BC81C106KA73L:CAPC2012X140N"
+		(property "Footprint" "CL21B106KOQNNNE:CAPC2012X140N"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -2231,43 +2386,16 @@
 		)
 	)
 	(symbol
-		(lib_id "VoltageRegulator_AZ1117IH-3.3TRG1:AZ1117IH-3.3TRG1")
-		(at 149.86 96.52 0)
+		(lib_id "power:PWR_FLAG")
+		(at 57.15 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a0eb323-e2ce-42dd-8956-94cd029ffea8")
-		(property "Reference" "U8"
-			(at 149.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Voltage Regulator"
-			(at 149.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Voltage_Regulator_AZ1117IH-3.3TRG1:SOT230P700X185-4N"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 96.52 0)
+		(uuid "331983fc-f432-4f94-abce-9e3a390a14fd")
+		(property "Reference" "#FLG01"
+			(at 59.055 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,8 +2403,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 149.86 96.52 0)
+		(property "Value" "PWR_FLAG"
+			(at 57.404 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,162 +2421,31 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Diodes Inc."
-			(at 149.86 96.52 0)
+		(property "Datasheet" "~"
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PACKAGE_ID" "6532"
-			(at 149.86 96.52 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.85 mm"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-223 Diodes Inc."
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2-2"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AZ1117IH-3.3TRG1"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Linear Voltage Regulator IC Positive Fixed 1 Output  1A SOT-223-3"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Diodes Inc."
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "AZ1117IH-3.3TRG1"
-			(at 149.86 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "07d40c86-6f31-41af-af3f-3d9346489198")
-		)
-		(pin "2"
-			(uuid "b62007af-ddf0-44c1-b932-d5eb9e91534b")
-		)
-		(pin "4"
-			(uuid "d8fe8c68-e79f-4b77-b8df-1999761d8806")
 		)
 		(pin "1"
-			(uuid "3ec3c436-ae9e-44d3-a57e-c4ad91563952")
+			(uuid "ef197a81-64c3-4dbc-a62c-b43866edd9d4")
 		)
 		(instances
-			(project "IREmitter"
+			(project ""
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
-					(reference "U8")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2447,7 +2453,7 @@
 	)
 	(symbol
 		(lib_id "Slide_Switch_EG1218:EG1218")
-		(at 87.63 86.36 0)
+		(at 121.92 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2456,7 +2462,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e2ec6fb-05b6-4887-a282-189d1116ee4b")
 		(property "Reference" "S1"
-			(at 91.44 85.0899 0)
+			(at 128.27 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2471,7 @@
 			)
 		)
 		(property "Value" "EG1218"
-			(at 91.44 87.6299 0)
+			(at 128.27 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,8 +2479,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Slide_Switch_EG1218:SW_EG1218"
-			(at 87.63 86.36 0)
+		(property "Footprint" "EG1218:SW_EG1218"
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2508,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "EG1903-ND"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2518,7 @@
 			)
 		)
 		(property "MF" "E-Switch"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2528,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2538,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2548,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2558,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2568,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2578,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2588,7 @@
 			)
 		)
 		(property "MP" "EG1218"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2598,7 @@
 			)
 		)
 		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2608,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2618,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 87.63 86.36 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,72 +2647,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 123.19 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62d0c9e2-789f-4f5c-b2cc-c9e726f6b941")
-		(property "Reference" "#PWR01"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 123.19 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "809aa41f-c7b8-4146-86db-2f3c13a93a87")
-		)
-		(instances
-			(project "IREmitter"
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 74.93 80.01 0)
+		(at 57.15 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2714,7 +2655,7 @@
 		(dnp no)
 		(uuid "6a24161f-4309-45ce-83cc-0ee77fb0f1bd")
 		(property "Reference" "#PWR012"
-			(at 74.93 83.82 0)
+			(at 60.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +2664,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 74.93 74.93 0)
+			(at 52.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 80.01 0)
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 80.01 0)
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +2690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 74.93 80.01 0)
+			(at 57.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST_Connector_B2B-PH-K-S:JST_B2B-PH-K-S"
+		(property "Footprint" "B2B_PH_K_S:JST_B2B-PH-K-S"
 			(at 88.9 100.33 0)
 			(effects
 				(font
@@ -2845,72 +2786,6 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fa188a8-c6f6-4a8c-801f-41e60ea3407f")
-		(property "Reference" "#PWR05"
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c0c0cc2-2dcd-4e9e-b904-b0956d5db145")
-		)
-		(instances
-			(project ""
-				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3010,7 +2885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Ceramic_Capacitor_22uF_CL21A226KPCLRNC:CAPC2012X95N"
+		(property "Footprint" "CL21A226MPQNNNE:CAPC2012X140N"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -3284,6 +3159,418 @@
 			(project "IREmitter"
 				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AZ1117IH-3.3TRG1_1")
+		(lib_id "VoltageRegulator_AZ1117IH-3.3TRG1:AZ1117IH-3.3TRG1")
+		(at 149.86 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c43d12-7d78-4157-b257-1dfe23669019")
+		(property "Reference" "U1"
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Voltage Regulator"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AZ1117IH-3.3TRG1:SOT230P700X185-4N"
+			(at 151.13 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "6532"
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.85 mm"
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 152.4 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-223 Diodes Inc."
+			(at 150.114 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
+			(at 148.59 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 149.86 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2-2"
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
+			(at 149.352 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AZ1117IH-3.3TRG1"
+			(at 149.86 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Linear Voltage Regulator IC Positive Fixed 1 Output  1A SOT-223-3"
+			(at 149.606 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc."
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 149.352 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "AZ1117IH-3.3TRG1"
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2dd43ac9-a2de-4102-ac86-f81bf62431b7")
+		)
+		(pin "1"
+			(uuid "29b90f1f-1943-465f-9341-21f725cf6bfb")
+		)
+		(pin "3"
+			(uuid "70106113-565f-4fba-be61-46e2b31185c4")
+		)
+		(pin "2"
+			(uuid "562fd805-eab0-469b-9728-5387ecc28029")
+		)
+		(instances
+			(project ""
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 130.81 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd63132e-78a0-483a-a994-f9beea2cb814")
+		(property "Reference" "#FLG04"
+			(at 130.81 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 130.556 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51e76ec5-ffd1-4ec0-bc7f-d9bd366e3f45")
+		)
+		(instances
+			(project ""
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e94ce3e5-3c55-469a-93e0-fcfaa9490a1f")
+		(property "Reference" "#FLG02"
+			(at 74.93 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 82.296 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd1ae8e8-da10-40c2-af78-db0f7e676398")
+		)
+		(instances
+			(project ""
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa07ef6-4803-4dcd-b765-178d2c3d8e01")
+		(property "Reference" "#PWR013"
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dd5c835-b773-4201-9dac-2da55d30bd73")
+		)
+		(instances
+			(project "IREmitter"
+				(path "/d311851a-8b0b-4acf-b2e7-1b968b2adbe7/0b36aac1-160e-4635-9375-c6b7de12d273"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
